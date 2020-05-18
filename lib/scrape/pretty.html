@@ -1,0 +1,1025 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class=" lang.dir " dir=" lang.dir " lang="en">
+
+<head>
+	<link href="/KeralaLatest-theme/css/font-icon/css/font-awesome.min.css" rel="stylesheet" type='text/css' media="all" property='css'>
+	<link href="https://sso.kerala.gov.in/Kerala/css/bootstrap-min-css.css" rel="stylesheet" type='text/css' media="all" property='css'>
+	<script type="text/javascript" src="https://sso.kerala.gov.in/Kerala/js/jquery-1.10.1.js"></script>
+	<!-- <script type="text/javascript" src="https://sso.kerala.gov.in/Kerala/js/dropdown.js" charset="utf-8"></script> <script type="text/javascript" src="https://sso.kerala.gov.in/Kerala/js/menumaker.js" charset="utf-8"></script> <script type="text/javascript" src="https://sso.kerala.gov.in/Kerala/js/customScript.js" charset="utf-8"></script> -->
+	<style>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" /> @font-face { font-family: 'Open Sans'; font-style: normal; font-weight: 400; src: local('Open Sans'), local('OpenSans'), url('/KeralaLatest-theme/docroot/css/font-icon/fonts/Open Sans.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; } * { font-family: 'Open Sans', Arial, Helvetica, sans-serif; } body { background: #555; } header { position: relative; width: 100%; background: #333; } .mobDisp{ display:none; } .navButton { margin-top:3px; } .navMal{ font-size:10px!important; } MobNav a{ color:white!important; } MobNav a:hover, MobNav a:focus{ color:white!important; } .navSearch select{ display:none!important; } .navSearch input[type="image"]{ display:none!important; } .navSearch input[type="text"]{ width: 210px!important; box-sizing: border-box; border: 1px solid white; font-size: 16px; background-color: rgba(255,255,255,0.1); background-image: url('https://sso.kerala.gov.in/Kerala/images/kerala/search.svg'); background-position: 5px 2px; background-size: 22px; background-repeat: no-repeat; padding: 5px 15px 5px 30px; } .navSearchMob select{ display:none!important; } .navSearchMob input[type="image"]{ display:none!important; } .navSearchMob input[type="text"]{ width: 210px!important; margin-right:3px!important; box-sizing: border-box; border: 1px solid white; font-size: 16px; background-color: rgba(255,255,255,0.1); background-image: url('https://sso.kerala.gov.in/Kerala/images/kerala/search.svg'); background-position: 5px 2px; background-size: 22px; background-repeat: no-repeat; padding: 4px 15px 5px 30px; } #scroll-top { display : none; } .scroll-img { height : 38px; box-shadow: 0 5px 6px rgba(0,0,0,0.3); -moz-box-shadow: 0 5px 6px rgba(0,0,0,0.3); -webkit-box-shadow: 0 5px 6px rgba(0,0,0,0.3); -o-box-shadow: 0 5px 6px rgba(0,0,0,0.3); border-radius: 100px; position: fixed; bottom: 10%; right: 10px; } .logo { position: relative; z-index: 123; padding: 10px; font: 18px verdana; color: #6DDB07; float: left; width: 15% } .logo a { color: #6DDB07; } nav { position: relative; margin: 0 auto; z-index: 2; } .headerNavs { top: 50%; width: 40%; right: 2%; position: absolute; } .menu-title { position: absolute; top: 42px; width: 100%; left: 0; } .iconImg { display: block!important; width: 100%!important; height: 50px!important; } .aboutImg { height: 100%; width: auto; margin-left: auto; margin-right: auto; display: block; } .gvtImg { height: 100%; width: auto; margin-left: auto; margin-right: auto; display: block; } .serviceImg { height: 100%; width: auto; margin-left: auto; margin-right: auto; display: block; } .missionImg { height: 100%; width: auto; margin-left: auto; margin-right: auto; display: block; } .peopleImg { height: 100%; width: auto; margin-left: auto; margin-right: auto; display: block; } .businessImg { height: 100%; width: auto; margin-left: auto; margin-right: auto; display: block; } .tourismImg { height: 100%; width: auto; margin-left: auto; margin-right: auto; display: block; } .schemesImg { height: 100%; width: auto; margin-left: auto; margin-right: auto; display: block; } .contactUsImg { height: 100%; width: auto; margin-left: auto; margin-right: auto; display: block; } #cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a, #cssmenu #head-mobile { border: 0; list-style: none; display: block; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin: 0; } #cssmenu:after, #cssmenu > ul:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0 } #cssmenu #head-mobile { display: none } #cssmenu { z-index: 9; height: 65px; } #cssmenu > ul > li { float: left; width: 11.1%!important; position: relative; } #cssmenu > ul > li > a { text-align: center; padding: 1% 15% 1% 15%!important; width: 100%; text-decoration: none; color: #fff; } #cssmenu > ul > li:hover > a, #cssmenu ul li.active a { color: #fff!important; font-weight: 900; } #cssmenu > ul > li:hover, #cssmenu ul li.active:hover, #cssmenu ul li.active, #cssmenu ul li.has-sub.active:hover { -webkit-transition: background .3s ease; -ms-transition: background .3s ease; transition: background .3s ease; } #cssmenu > ul > li.has-sub > a:after { position: absolute; top: 17px; right: 7px; width: 8px; height: 2px; display: none; background: #2166a1; content: '' } #cssmenu > ul > li.has-sub > a:before { position: absolute; top: 14px; right: 10px; display: none; width: 2px; height: 8px; background: #2166a1; content: ''; -webkit-transition: all .25s ease; -ms-transition: all .25s ease; transition: all .25s ease } #cssmenu > ul > li.has-sub:hover > a:before { top: 23px; height: 0 } #cssmenu ul ul { position: absolute; left: -9999px } #cssmenu ul ul li { height: 0; -webkit-transition: all .25s ease; -ms-transition: all .25s ease; background: #fff; border-bottom: 2px solid #daf0fb; transition: all .25s ease } #cssmenu ul ul li:hover { background: #e1effb; } #cssmenu li:hover > ul { left: auto; padding-top: 8%; } #cssmenu li:hover > ul > li { height: auto; } #cssmenu ul ul ul { margin-left: 100%; top: 0 } #cssmenu ul ul li a { border-bottom: 1px solid rgba(150, 150, 150, 0.15); padding: 5px 9px; width: 200px; font-size: 13.5px; text-decoration: none; color: #000; font-weight: 400; } #cssmenu ul ul li:last-child > a, #cssmenu ul ul li.last-item > a { border-bottom: 0 } #cssmenu ul ul li:hover > a, #cssmenu ul ul li a:hover { color: #607D8B; } #cssmenu ul ul li.has-sub > a:after { position: absolute; top: 8px; right: 11px; width: 8px; color: #2166a1; font-weight: bold; height: 2px; display: block; font-size: 16px; content: '\203A'; } #cssmenu ul ul li.has-sub > a:after:hover { transform: rotate(45deg); -webkit-transform: rotate(45deg); } #cssmenu ul ul > li.has-sub:hover > a:before { top: 17px; height: 0 } #cssmenu ul ul li.has-sub:hover, #cssmenu ul li.has-sub ul li.has-sub ul li:hover { background: #e1effb; } #cssmenu ul ul ul li.active a { border-left: 1px solid #333 } #cssmenu > ul > li.has-sub > ul > li.active > a, #cssmenu > ul ul > li.has-sub > ul > li.active> a { border-top: 1px solid #333 } .MobNav { display: none; } .profile-dropdown { position: relative; display: inline-block; padding-bottom: 16px; margin-left: 65px; right: 51px; top: 2px; } .dropdown-content { display: none; position: absolute; top:28px; right:0px; background-color: #f9f9f9; min-width: 150px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; } .dropdown-content a { padding: 12px 16px; text-decoration: none; display: block; } .user-name, .dropdown-content a { color: #2166a1; font-weight: 600; font-size: 15px; } .userIcon { display: inline; font-size: 16px; top: 2px; position: relative; padding-left: 5px; } .dropdown-content a:hover {background-color: #f1f1f1} .profile-dropdown:hover .dropdown-content { display: block; } .profile-dropdown:hover #cssmenu { z-index : 0; } @media screen and (max-width: 768px) { .mobDisp{ display:block; } .letterSize{ color:white!important; } .letterSize:hover{ color:white!important; } .MobNav { display: block!important; } .menu-title { position: inherit; top: 0; } .dropdown-content{ min-width:104px; } #cssmenu > ul > li { width: 100%!important; } #cssmenu > ul > li > a { text-align: left; margin-top: 0%!important; } #cssmenu > ul > li > a { padding: 1% 15% 3% 15%!important; } #cssmenu > ul > li:hover > a, #cssmenu ul li.active a { color: #ead882!important; } .logo { position: absolute; top: 0; left: 0; width: 100%; height: 46px; text-align: center; padding: 10px 0 0 0; float: none } .iconImg { display: none!important; } .logo2 { display: none } nav { width: 100%; } #cssmenu { width: 100%; height: auto; } #cssmenu ul { width: 100%; display: none } #cssmenu ul li { width: 100%; border-top: 1px solid #fff; } #cssmenu ul li:hover { background: #2166a1; } #cssmenu li:hover > ul { padding-top: 0!important; } #cssmenu ul ul li, #cssmenu li:hover > ul > li { height: auto } #cssmenu ul li a, #cssmenu ul ul li a { width: 100%; border-bottom: 0 } #cssmenu > ul > li { float: none } #cssmenu ul ul li a { padding-left: 25px; padding: 3px 19px; } #cssmenu ul ul li { background: #fff!important; } #cssmenu ul ul li:hover { background: #e1effb!important; } #cssmenu ul ul ul li a { padding-left: 35px } #cssmenu ul ul li a { color: #000; background: none } #cssmenu ul ul li:hover > a, #cssmenu ul ul li.active > a { color: #000; } #cssmenu ul ul, #cssmenu ul ul ul { position: relative; left: 0; width: 100%; margin: 0; text-align: left } #cssmenu > ul > li.has-sub > a:after, #cssmenu > ul > li.has-sub > a:before, #cssmenu ul ul > li.has-sub > a:after, #cssmenu ul ul > li.has-sub > a:before { display: none } #cssmenu #head-mobile { display: block; padding: 23px; color: #ddd; font-size: 12px; font-weight: 700 } .button { width: 55px; height: 46px; position: absolute; right: 0; top: 0; cursor: pointer; z-index: 12399994; } .button:after { position: absolute; top: 22px; right: 20px; display: block; height: 4px; width: 20px; border-top: 2px solid #dddddd; border-bottom: 2px solid #dddddd; content: '' } .button:before { -webkit-transition: all .3s ease; -ms-transition: all .3s ease; transition: all .3s ease; position: absolute; top: 16px; right: 20px; display: block; height: 2px; width: 20px; background: #ddd; content: '' } .button.menu-opened:after { -webkit-transition: all .3s ease; -ms-transition: all .3s ease; transition: all .3s ease; top: 21px; border: 0; height: 2px; width: 19px; background: #fff; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg) } .button.menu-opened:before { top: 22px; background: #fff; width: 19px; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg) } #cssmenu .submenu-button { position: absolute; z-index: 99; right: 0; top: 0; display: block; border-left: 1px solid #daf0fb; height: 39px; width: 34px; cursor: pointer } #cssmenu .submenu-button.submenu-opened { background: #184d79; } #cssmenu ul ul .submenu-button { height: 34px; width: 34px } #cssmenu .submenu-button:after { position: absolute; top: 15px; right: 13px; width: 8px; height: 2px; display: block; background: #607d8b; content: '' } #cssmenu ul ul .submenu-button:after { top: 15px; right: 13px } #cssmenu .submenu-button.submenu-opened:after { background: #fff; } #cssmenu .submenu-button:before { position: absolute; top: 12px; right: 16px; display: block; width: 2px; height: 8px; background: #607d8b; content: '' } #cssmenu ul ul .submenu-button:before { top: 12px; right: 16px } #cssmenu .submenu-button.submenu-opened:before { display: none } #cssmenu ul ul ul li.active a { border-left: none } #cssmenu > ul > li.has-sub > ul > li.active > a, #cssmenu > ul ul > li.has-sub > ul > li.active > a { border-top: none } .container-column, .portlet-column { background-color: #fff; display: block !important; width: 100% !important; .container-column-content, .portlet-column-content { padding: 15px !important; } } .responsive-hidden { display: none !important; } .responsive-only { display: block !important; } .ksitmLogo { width: 45px!important; } .footerRow { width: 100%!important; } .footerCol0 { margin-top: 2%!important; width: 41%!important; } .footerCol1 { margin-top: 2%!important; width: 41%!important; } .footerCol2 { margin-top: 2%!important; width: 100%!important; text-align: center!important; } .footerCol3 { margin-top: 2%; width: 100%!important; text-align: center!important; } .footerCol4 { margin-top: 2%!important; width: 100%!important; text-align: center!important; } .iconset { width: 100%!important; text-align: center!important; margin-top: 1%!important; } .headerNavs { display: none!important; } .MobNav { display: block!important; padding-left: 0%!important; } .SearchNav { display: block!important; } .engheader { height: 75px!important; } .navSearchMob .aui-field-content { width: 120px!important; } .navSearchMob input[type="text"] { width: 120px!important; height:17px!important; margin-right:3px; } .accessibility-icons { display: none!important; } .user-name, .dropdown-content a { font-size: 12px; } .profile-dropdown { right: 7px; top : 0px; } .accessibilityDiv { margin-top: 0; } .navTabInfoMob { padding: 1px 1px 1px 1px!important; background: transparent !important; color: #ffffff !important; font-size:14px!important; } .navTabServicesMob { padding: 1px 1px 1px 1px !important; background: transparent !important; color: #ffffff !important; font-size:14px!important; } .mobLang{ font-size:12px!important; color:white!important; } .mobLangMal{ font-size:10px!important; color:white!important; } .mobLang a{ color:white!important; } .mobLang a{ color:white!important; } mobLang a:hover, mobLang a:focus{ color:white!important; } mobLangMal a:hover, mobLangMal a:focus{ color:white!important; } .navSearch { position: absolute; margin-left: 35%!important; margin-top: 0%!important; } .navLogin { margin-left: 76%!important; margin-top: 0.25%!important; font-size: 13px!important; border-right: 0px!important; padding: 0px 3px 0px 0px!important; text-decoration: none!important; } .navSearchMob{ display: inline; float: right!important; } } .fixedMenuCss { position: fixed; top: 0; width: 90.5%; } <!-- responsive code starts --> #wrapper { margin: 0 auto; max-width: 960px; min-width: 320px; width: 960px; } .container-column, .portlet-column { display: table-cell; .container-column-content, .portlet-column-content { padding: 0 10px; } .container-column-content-first, .portlet-column-content-first { padding-left: 0; } .container-column-content-last, .portlet-column-content-last { padding-right: 0; } .container-column-content-only, .portlet-column-content-only { padding: 0; } } .responsive #wrapper { width: 100%; } .responsive-only { display: none !important; } @media screen and (max-width: 1130px) and (min-width: 900px) { #cssmenu li:hover > ul { padding-top: 15%!important; } .mobDisp{ display:none; } } @media screen and (max-width: 900px) and (min-width: 768px) { .iconImg { display: none !important; } .menu-title { top: 7px !important; font-weight: 600; } #cssmenu { height: 45px; } .main-menu-ul { padding-top: 0 !important; top: 33px; } #cssmenu > ul > li { height: 40px; } .mobDisp{ display:none; } } @media screen and (max-width: 1130px) { #keywords { font-size: 14px!important; height: 21px!important; background-position: 5px 3px !important; background-size: 17px !important; padding: 0px 0px 0px 25px !important; } .navSearch input[type="text"]{ font-size: 14px!important; height: 21px!important; background-position: 5px 3px !important; background-size: 17px !important; padding: 0px 0px 0px 25px !important; } .navSearchMob input[type="text"]{ font-size: 14px!important; height: 21px!important; background-position: 5px 3px !important; background-size: 17px !important; padding: 0px 0px 0px 25px !important; } .mobDisp{ display:none; } } @media screen and (max-width: 1130px) and (min-width: 768px) { .navLogin { border-right: 1px solid #2196f3!important; margin-top: 0.65%!important; } .menu-title { top: 33px; } .iconImg { height: 45px!important; } .aboutImg, .gvtImg, .serviceImg, .missionImg, .peopleImg, .businessImg, .tourismImg, .schemesImg, .contactUsImg { width: 50% !important; } #cssmenu > ul > li > a { font-size: 10.5px!important; } .engheader { height: 100px!important; } .headerNavs { display: none!important; } .MobNav { padding-left: 26%!important; display: block!important; } .SearchNav { display: block!important; } .navSearch { } .navSearchMob .aui-field-content { width: 200px!important; } .navSearchMob input[type="text"]{ width: 200px!important; } .accessibilityDiv { margin-top: 0.5%!important; } .mobDisp{ display:none; } } @media screen and (max-width: 410px) { .navSearchMob{ display: inline; float: none!important; } .navSearchMob .aui-field-content { width: 220px!important; } .navSearchMob input[type="text"]{ width: 220px!important; } } @media screen and (max-width: 321px) { .navSearchMob{ display: inline; float: none!important; } .mobDisp{ display:block; } .MobNav { padding-left: 2%!important; } .navTabInfoMob { padding: 1px 10px 1px 10px!important; font-size:12px!important; } .navTabServicesMob{ font-size:12px!important; } .mobLang{ font-size:11px!important; color:white!important; } .mobLangMal{ font-size:8px!important; color:white!important; } .mobLang a{ color:white!important; } .mobLangMal a{ color:white!important; } .navSearchMob .aui-field-content { width: 200px!important; } .navSearchMob input[type="text"]{ width: 200px!important; } } @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), only screen and ( min--moz-device-pixel-ratio: 2) and (min-width: 1600px), only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 1600px), only screen and ( min-device-pixel-ratio: 2) and (min-width: 1600px), only screen and ( min-resolution: 192dpi) and (min-width: 1600px), only screen and ( min-resolution: 2dppx) and (min-width: 1600px) { .main-menu-ul{ padding-top: 5% !important; padding-left: 12%; } #cssmenu { height: 100px; } .menu-title { top: 66px; } .iconImg { height: 80px!important; } .navMal{ font-size:14px!important; } #cssmenu > ul { } #cssmenu > ul > li.has-sub > a { } #cssmenu > ul > li > a { font-size: 16px!important; } .engheader { height: 240px!important; } .navTabInfo { font-size: 26px!important; margin-right: 20px; text-decoration: none!important; } .navTabServices { font-size: 26px!important; text-decoration: none!important; } .navLogin { margin-top: 1%!important; font-size: 24px!important; padding: 0px 10px 0px 0px!important; text-decoration: none!important; } .accessibilityDiv { margin-top: 0.5%!important; margin-right: 1%; } .print { top: -3px; } .letterSize { font-size: 22px!important; } #keywords { width: 86%; height: 50px !important; background-position: 5px 8px !important; background-size: 32px !important; padding: 4px 15px 5px 37px !important; font-size: 18px !important; } .navSearch input[type="text"]{ width: 500px!important; height: 50px !important; background-position: 5px 8px !important; background-size: 32px !important; padding: 4px 15px 5px 37px !important; font-size: 18px !important; } .navSearchMob input[type="text"]{ width: 500px!important; height: 50px !important; background-position: 5px 8px !important; background-size: 32px !important; padding: 4px 15px 5px 37px !important; font-size: 18px !important; } .headerNavs { display: block!important; } .MobNav { display: none!important; } .SearchNav { display: none!important; } } <!-- responsive code ends -->
+	</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="google-site-verification" content="zzWRyEl6OqjbQrDWQ0A4TmC4KW5ylGwoR1KsGNmN2yM" />
+	<title>Gos/Circulars - Government of Kerala, India</title>
+	<meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=3.0">
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<meta name="description" content="Government orders" lang="en-US" />
+	<meta name="keywords" content="Government orders, GO" lang="en-US" />
+	<link href="/KeralaLatest-theme/images/favicon.ico" rel="Shortcut Icon" />
+	<link href="https://kerala.gov.in/gos/circulars?p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults" rel="canonical" />
+	<link href="https://kerala.gov.in/ml/gos/circulars?p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults" hreflang="ml-IN" rel="alternate" />
+	<link href="/html/css/main.css?browserId=other&amp;themeId=KeralaLatest_WAR_KeralaLatesttheme&amp;minifierType=css&amp;languageId=en_US&amp;b=6100&amp;t=1455533243000" rel="stylesheet" type="text/css" />
+	<link href="/ssdg-portlet/css/main.css?browserId=other&amp;themeId=KeralaLatest_WAR_KeralaLatesttheme&amp;minifierType=css&amp;languageId=en_US&amp;b=6100&amp;t=1587975012000" rel="stylesheet" type="text/css" />
+	<link href="/html/portlet/journal_content/css/main.css?browserId=other&amp;themeId=KeralaLatest_WAR_KeralaLatesttheme&amp;minifierType=css&amp;languageId=en_US&amp;b=6100&amp;t=1586962776000" rel="stylesheet" type="text/css" />
+	<script type="text/javascript">
+		/*<![CDATA[*/var Liferay={Browser:{acceptsGzip:function(){return true},getMajorVersion:function(){return 0},getRevision:function(){return""},getVersion:function(){return""},isAir:function(){return false},isChrome:function(){return false},isFirefox:function(){return false},isGecko:function(){return false},isIe:function(){return false},isIphone:function(){return false},isLinux:function(){return false},isMac:function(){return false},isMobile:function(){return false},isMozilla:function(){return false},isOpera:function(){return false},isRtf:function(){return false},isSafari:function(){return false},isSun:function(){return false},isWap:function(){return false},isWapXhtml:function(){return false},isWebKit:function(){return false},isWindows:function(){return false},isWml:function(){return false}},Data:{isCustomizationView:function(){return false},notices:[null]},ThemeDisplay:{getCompanyId:function(){return"10154"},getCompanyGroupId:function(){return"10192"},getUserId:function(){return"10158"},getDoAsUserIdEncoded:function(){return""},getPlid:function(){return"31332"},getLayoutId:function(){return"52"},getLayoutURL:function(){return"https://kerala.gov.in/gos/circulars"},isPrivateLayout:function(){return"false"},getParentLayoutId:function(){return"4"},getScopeGroupId:function(){return"10180"},getScopeGroupIdOrLiveGroupId:function(){return"10180"},getParentGroupId:function(){return"10180"},isImpersonated:function(){return false},isSignedIn:function(){return false},getDefaultLanguageId:function(){return"en_US"},getLanguageId:function(){return"en_US"},isAddSessionIdToURL:function(){return true},isFreeformLayout:function(){return false},isStateExclusive:function(){return false},isStateMaximized:function(){return false},isStatePopUp:function(){return false},getPathContext:function(){return""},getPathImage:function(){return"/image"},getPathJavaScript:function(){return"/html/js"},getPathMain:function(){return"/c"},getPathThemeImages:function(){return"/KeralaLatest-theme/images"},getPathThemeRoot:function(){return"/KeralaLatest-theme/"},getURLHome:function(){return"https://kerala.gov.in/web/guest/home"},getSessionId:function(){return"0AA23DD7F5ACD629DD3F6F71028371C3.node2"},getPortletSetupShowBordersDefault:function(){return true}},PropsValues:{NTLM_AUTH_ENABLED:false}};var themeDisplay=Liferay.ThemeDisplay;Liferay.AUI={getBaseURL:function(){return"https://kerala.gov.in/html/js/aui/"},getCombine:function(){return true},getComboPath:function(){return"/combo/?browserId=other&minifierType=&languageId=en_US&b=6100&t=1587975068000&p=/html/js&"},getFilter:function(){return{replaceStr:function(c,b,a){return b+"m="+(c.split("/html/js")[1]||"")},searchExp:"(\\?|&)/([^&]+)"}},getJavaScriptRootPath:function(){return"/html/js"},getLangPath:function(){return"aui_lang.jsp?browserId=other&themeId=KeralaLatest_WAR_KeralaLatesttheme&colorSchemeId=01&minifierType=js&languageId=en_US&b=6100&t=1587975068000"},getRootPath:function(){return"/html/js/aui/"}};window.YUI_config={base:Liferay.AUI.getBaseURL(),comboBase:Liferay.AUI.getComboPath(),fetchCSS:true,filter:Liferay.AUI.getFilter(),root:Liferay.AUI.getRootPath(),useBrowserConsole:false};Liferay.currentURL="\x2fgos\x2fcirculars\x3fp_p_id\x3dGovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U\x26p_p_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_count\x3d1\x26_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction\x3dgrResults";Liferay.currentURLEncoded="%2Fgos%2Fcirculars%3Fp_p_id%3DGovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1%26_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction%3DgrResults";/*]]>*/
+	</script>
+	<script src="/html/js/barebone.jsp?browserId=other&amp;themeId=KeralaLatest_WAR_KeralaLatesttheme&amp;colorSchemeId=01&amp;minifierType=js&amp;minifierBundleId=javascript.barebone.files&amp;languageId=en_US&amp;b=6100&amp;t=1587975068000" type="text/javascript"></script>
+	<script type="text/javascript">
+		/*<![CDATA[*/Liferay.Portlet.list=["GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U","56_INSTANCE_z7J7odLmDdYO"];/*]]>*/
+	</script>
+	<link class="lfr-css-file" href="/KeralaLatest-theme/css/main.css?browserId=other&amp;themeId=KeralaLatest_WAR_KeralaLatesttheme&amp;minifierType=css&amp;languageId=en_US&amp;b=6100&amp;t=1540990262000" rel="stylesheet" type="text/css" />
+	<style type="text/css"></style>
+	<style type="text/css">
+		.sidelinks ul{list-style-type:none;margin:0;padding:0;}.sidelinks li{border-bottom:1px solid #ccc;height:39px;background:#D8D8D8;}.sidelinks li:last-child{border:none;}.sidelinks li:last-child{border:none;}.sidelinks li a{text-decoration:none;color:#000;display:block;width:95.5%;font-weight:bold;height:39px;padding-left:1em;}.sidelinks li a:hover{background:#F2F2F2;}#portlet_56_INSTANCE_XQaDKCv2Sllp{background:#f2f2f2;}
+	</style>
+</head>
+
+<body class=" yui3-skin-sam controls-visible guest-site signed-out public-page site bodybg" id="BodyId" style="width:100%;">
+	<div id="bodycontainer">
+		<!-- PRODUCTION CODE -->
+		<!-- STAGING CODE -->
+		<div class="clear"></div>
+		<!--Header Start-->
+		<div class="header" id="webHeader">
+			<div class="engheader">
+				<div class="headerCommon">
+					<div class="accessibilityDiv">
+						<ul style="display:inline-block" class="accessibility-icons">
+							<li class="accessibility" style="display:inline;"><a href="#" class="letterSize" onclick="dw_fontSizerDX.adjust(3); return false" title="Increase font size">+A</a> 
+							</li>
+							<li class="accessibility" style="display:inline;"><a href="#" class="letterSize" onclick="dw_fontSizerDX.reset(); return false" title="Restore default font size" class="font_size_add" style="padding: 2px 6px 2px 6px;">A</a> 
+							</li>
+							<li class="accessibility" style="display:inline;"><a href="#" class="letterSize" onclick="dw_fontSizerDX.adjust(-4); return false" title="Decrease font size" class="font_size_minus" style="">-A</a> 
+							</li>
+							<li class="language" style="display:inline;"> <a style="font-size: 14px;" class="letterSize taglib-language-list-text last" href="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_id=82&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_col_count=1&amp;_82_struts_action=%2Flanguage%2Fview&amp;_82_redirect=%2Fgos%2Fcirculars%3Fp_p_id%3DGovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1%26_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction%3DgrResults&amp;_82_languageId=ml_IN"> മലയാളം </a> 
+							</li>
+							<li id="colorInvert" style="display:inline;">
+								<a href="javascript:pageNormalColor();" title="Normal contrast">
+									<img alt="Normal contrast" src="https://sso.kerala.gov.in/Kerala/images/invertWhite.png" style="vertical-align:top;">
+								</a>
+								<a href="javascript:pageGrayColor();" title="Grayscale">
+									<img alt="Grayscale" src="https://sso.kerala.gov.in/Kerala/images/invertGray.png" style="vertical-align:top;">
+								</a>
+								<a href="javascript:pageInvertColor();" title="High contrast">
+									<img alt="High contrast" src="https://sso.kerala.gov.in/Kerala/images/invertBlack.png" style=" transform: rotate(180deg);vertical-align:top;">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- Accessibility DIV ends -->
+					<!-- Production Code --> <a href="https://sso.kerala.gov.in/Opensso/UI/Login?goto=https://kerala.gov.in/c/portal/login" id="sign-in" rel="no follow" title="Sign In" class="navLogin">Sign In</a> 
+					<!-- Staging Code -->
+					<!-- <a href="/login" id="sign-in" rel="no follow" title="Sign In" class="navLogin">Sign In</a> -->
+				</div>
+				<!-- Header common ends -->
+				<div class="headerNavs">
+					<div class="navButton" style="display:inline;"> <a class="navTabInfo" style="display:inline;" href="/home">Home</a>  <a class="navTabServices" style="display:inline;" href="/service">e-Services</a> 
+					</div>
+					<div class="navSearch" style="display:inline;">
+						<form action="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_id=3&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&p_p_col_count=1&_3_struts_action=%2Fsearch%2Fsearch&_3_redirect=%2Fgos%2Fcirculars%3Fp_p_id%3DGovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1%26_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction%3DgrResults" method="get" name="ctem_3_fm" onSubmit="ctem_3_search(); return false;">
+							<input name="p_p_id" type="hidden" value="3" />
+							<input name="p_p_lifecycle" type="hidden" value="0" />
+							<input name="p_p_state" type="hidden" value="maximized" />
+							<input name="p_p_mode" type="hidden" value="view" />
+							<input name="p_p_col_count" type="hidden" value="1" />
+							<input name="_3_struts_action" type="hidden" value="&#x2f;search&#x2f;search" />
+							<input name="_3_redirect" type="hidden" value="&#x2f;gos&#x2f;circulars&#x3f;p_p_id&#x3d;GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&#x26;p_p_lifecycle&#x3d;0&#x26;p_p_state&#x3d;normal&#x26;p_p_mode&#x3d;view&#x26;p_p_col_id&#x3d;column-1&#x26;p_p_col_count&#x3d;1&#x26;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction&#x3d;grResults" />
+							<input name="_3_keywords" size="30" type="text" value="" />
+							<select name="_3_groupId">
+								<option value="0" selected>Everything</option>
+								<option value="10180">This Site</option>
+							</select>
+							<input align="absmiddle" border="0" src="/KeralaLatest-theme/images/common/search.png" title="Search" type="image" />
+						</form>
+					</div>
+				</div>
+			</div>
+			<!-- engHeader ends -->
+		</div>
+		<!--Header End-->
+		<!-- Mobile header start-->
+		<div class="MobNav" align="left" style="padding-top: 1%;padding-bottom: 1%;background: #2166a1;"> <a class="navTabInfoMob" href="/home" style="display:inline;">Home</a> &nbsp;&nbsp; <a class="navTabServicesMob" href="/service" style="display:inline;">e-Services</a>&nbsp;&nbsp;
+			<a class="language mobDisp" style="display:inline;"> <a style="font-size: 14px;" class="letterSize taglib-language-list-text last" href="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_id=82&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_col_count=1&amp;_82_struts_action=%2Flanguage%2Fview&amp;_82_redirect=%2Fgos%2Fcirculars%3Fp_p_id%3DGovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1%26_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction%3DgrResults&amp;_82_languageId=ml_IN"> മലയാളം </a> </a>
+			<div class="navSearchMob">
+				<form action="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_id=3&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&p_p_col_count=1&_3_struts_action=%2Fsearch%2Fsearch&_3_redirect=%2Fgos%2Fcirculars%3Fp_p_id%3DGovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1%26_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction%3DgrResults" method="get" name="fphf_3_fm" onSubmit="fphf_3_search(); return false;">
+					<input name="p_p_id" type="hidden" value="3" />
+					<input name="p_p_lifecycle" type="hidden" value="0" />
+					<input name="p_p_state" type="hidden" value="maximized" />
+					<input name="p_p_mode" type="hidden" value="view" />
+					<input name="p_p_col_count" type="hidden" value="1" />
+					<input name="_3_struts_action" type="hidden" value="&#x2f;search&#x2f;search" />
+					<input name="_3_redirect" type="hidden" value="&#x2f;gos&#x2f;circulars&#x3f;p_p_id&#x3d;GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&#x26;p_p_lifecycle&#x3d;0&#x26;p_p_state&#x3d;normal&#x26;p_p_mode&#x3d;view&#x26;p_p_col_id&#x3d;column-1&#x26;p_p_col_count&#x3d;1&#x26;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction&#x3d;grResults" />
+					<input name="_3_keywords" size="30" type="text" value="" />
+					<select name="_3_groupId">
+						<option value="0" selected>Everything</option>
+						<option value="10180">This Site</option>
+					</select>
+					<input align="absmiddle" border="0" src="/KeralaLatest-theme/images/common/search.png" title="Search" type="image" />
+				</form>
+			</div>
+		</div>
+		<!-- mobile header ends -->
+	</div>
+	<!-- Body container ends -->
+	</div>
+	<!-- body Ends -->
+	<!-- CODE FOR NEW MENU -->
+	<div id='cssmenu' style="">
+		<div id="head-mobile"></div>
+		<div class="button"></div>
+		<ul style="line-height: 2;">
+			<li id="About_Li">
+				<a href='/about-kerala'>
+					<div class="iconImg">
+						<img src="https://sso.kerala.gov.in/Kerala/images/kerala/menuIcon/About.png" class="aboutImg" id="About_img">
+					</div> <span class="menu-title">ABOUT KERALA</span> 
+				</a>
+				<ul class="main-menu-ul">
+					<li><a>Profile</a> 
+						<ul>
+							<li><a href='/state-profile'>State</a> 
+							</li>
+							<li><a href='/districts14'>Districts</a> 
+							</li>
+							<li><a href='/history'>History</a> 
+							</li>
+							<li><a href='/economy'>Economy</a> 
+							</li>
+							<li><a href='/election-reportage'>Elections</a> 
+							</li>
+							<li><a href='/judiciary'>Judiciary</a> 
+							</li>
+							<li><a href='/census2011'>Census 2011</a> 
+							</li>
+						</ul>
+					</li>
+					<li><a>Socio-Cultural</a> 
+						<ul>
+							<li><a href='/literature'>Literature</a> 
+							</li>
+							<li><a href='/tourism-kerala'>Tourism</a> 
+							</li>
+							<li><a href='/fairs-festivals'>Festivals</a> 
+							</li>
+							<li><a href='/lifestyle'>Lifestyle</a> 
+							</li>
+							<li><a href='/recreation'>Recreation </a> 
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li id="Gov_Li">
+				<a href="/government">
+					<div class="iconImg">
+						<img src="https://sso.kerala.gov.in/Kerala/images/kerala/menuIcon/Government.png" class="gvtImg" id="Gov_img">
+					</div> <span class="menu-title">GOVERNMENT</span> 
+				</a>
+				<ul class="main-menu-ul">
+					<li><a href='/key-contacts'>Who's who</a> 
+						<ul>
+							<li><a href='/governor2'>Governor</a> 
+							</li>
+							<li><a href='/pinarayi-vijayan'>Chief Minister</a> 
+							</li>
+							<li><a href='/cabinet'>Council of Ministers</a> 
+							</li>
+							<li><a href='http://www.niyamasabha.org/codes/members.htm' target="_blank">MLAs</a> 
+							</li>
+							<li><a href='/secretaries'>Secretaries</a> 
+							</li>
+						</ul>
+					</li>
+					<li><a href='/departments'>Department</a> 
+						<ul>
+							<li><a href='/agriculture-developement'>Secretariat Departments</a> 
+							</li>
+							<li><a href='/directorate'>Directorates</a> 
+							</li>
+							<li><a href='/government-institute'>Government Institutions</a> 
+							</li>
+							<li><a href='/local-self-governance'>Local Self Government</a> 
+							</li>
+						</ul>
+					</li>
+					<li><a href='/helpline'>Helpline Numbers</a> 
+					</li>
+				</ul>
+			</li>
+			<li id="Service_Li">
+				<a href='/service'>
+					<div class="iconImg">
+						<img src="https://sso.kerala.gov.in/Kerala/images/kerala/menuIcon/Services.png" class="serviceImg" id="Service_img">
+					</div> <span class="menu-title">SERVICES</span> 
+				</a>
+				<ul class="main-menu-ul">
+					<li> <a href='/service'>e-Services</a> 
+					</li>
+					<li> <a href='/life-event-model'>Life Event Model Services</a> 
+					</li>
+					<li> <a href='/online-service-links'>Online Service Links</a> 
+					</li>
+					<li><a href="/kerala-app-store">Kerala App Store</a> 
+					</li>
+					<li> <a href='http://ksdi.kerala.gov.in/ksdi/' target="_blank">Geo Locator</a> 
+					</li>
+					<li><a>Citizen Service Center</a> 
+						<ul>
+							<li><a href='/local-service-provider'>Akshaya Centers</a> 
+							</li>
+							<li><a href='/friends'>Friends Jana Seva Kendra</a> 
+							</li>
+							<li><a href='/citizen-call-centre'>Citizen Call Centers</a> 
+							</li>
+						</ul>
+					</li>
+					<li><a href='/policies'>Policy & Acts</a> 
+						<ul>
+							<!-- <li><a href='/right-to-services'>Right to Service</a> </li> <li><a href='/citizen-s-charter'>Citizen Charter</a> </li> -->
+							<li><a href='http://keralasic.gov.in/' target='_blank'>RTI</a> 
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li id="Mission_Li">
+				<a href='/missions'>
+					<div class="iconImg">
+						<img src="https://sso.kerala.gov.in/Kerala/images/kerala/menuIcon/Mission.png" class="missionImg" id="Mission_img">
+					</div> <span class="menu-title">MISSIONS</span> 
+				</a>
+				<ul class="main-menu-ul">
+					<li><a href='/harithakeralam'>Haritha Keralam</a> 
+					</li>
+					<li><a href='/aardram'>Aardram</a> 
+					</li>
+					<li><a href='/life'>LIFE</a> 
+					</li>
+					<li><a href='/education-mission'>Education Mission</a> 
+					</li>
+				</ul>
+			</li>
+			<li id="People_Li">
+				<a href='/people'>
+					<div class="iconImg">
+						<img src="https://sso.kerala.gov.in/Kerala/images/kerala/menuIcon/People.png" class="peopleImg" id="People_img">
+					</div> <span class="menu-title">PEOPLE</span> 
+				</a>
+				<ul class="main-menu-ul">
+					<li><a href="/education-sector">Education</a> 
+						<ul>
+							<li><a href='/educational-schemes'>Educational Schemes</a> 
+							</li>
+							<li><a href='/vocational-education'>Vocational Education</a> 
+							</li>
+							<li><a href='/literacy-programmes'>Literacy Programmes</a> 
+							</li>
+							<li><a href='/digital-learning-resources'>Digital Learning Resources</a> 
+							</li>
+							<li><a href='/industrial-training'>Industrial Training</a> 
+							</li>
+						</ul>
+					</li>
+					<li><a href="/social-welfare-initiatives">Social Welfare Initiatives</a> 
+						<ul>
+							<li><a href='/women'>Women</a> 
+							</li>
+							<li><a href='/children'>Children</a> 
+							</li>
+							<li><a href='/specially-abled-citizens'>Specially-Abled Citizens</a> 
+							</li>
+							<li><a href='/youth'>Youth</a> 
+							</li>
+							<li><a href='/senior-citizen'>Senior Citizen</a> 
+							</li>
+							<li><a href='/minorities'>Minorities</a> 
+							</li>
+							<li><a href='/welfare-institutions'>Welfare Institutions</a> 
+							</li>
+							<li><a href='/social-enterpruneurship'>Social Entrepreneurship</a> 
+							</li>
+							<li><a href='/social-welfare-others'>Others</a> 
+							</li>
+						</ul>
+					</li>
+					<li><a href="/health-services">Health Services</a> 
+						<ul>
+							<li><a href='/emergency-medical-services'>Emergency Medical Services</a> 
+							</li>
+							<li><a href='/palliative-care'>Palliative Care</a> 
+							</li>
+							<li><a href='/health-campaigns'>Health Campaigns</a> 
+							</li>
+							<li><a href='/national-health-mission'>National Health Mission</a> 
+							</li>
+							<li><a href='/vaccinations-preventive-medicines'>Vaccinations & Preventive Medicines</a> 
+							</li>
+							<li><a href='/health-related-links'>Related Links</a> 
+							</li>
+						</ul>
+					</li>
+					<li><a href="/employment">Employment</a> 
+						<ul>
+							<li><a href='/kerala-psc'>Kerala PSC</a> 
+							</li>
+							<li><a href='/employment-directorate'>Employment Department</a> 
+							</li>
+							<li><a href='/official-government-job-portal'>Official Government Job Portal</a> 
+							</li>
+							<li><a href='/self-employment-schemes'>Self Employment Schemes</a> 
+							</li>
+							<li><a href='/special-assistance-to-specially-abled'>Special Assistance to Specially Abled</a> 
+							</li>
+							<li><a href='/special-assistance-to-minorities'>Special Assistance to Minorities</a> 
+							</li>
+						</ul>
+					</li>
+					<li><a href="/skill-development">Skill Development</a> 
+						<ul>
+							<li><a href='/it-school'>IT@School</a> 
+							</li>
+							<li><a href='/asap'>ASAP</a> 
+							</li>
+							<li><a href='/kase'>KASE</a> 
+							</li>
+							<li><a href='/ict'>ICT</a> 
+							</li>
+							<li><a href='/skilldevelopement-industrial-training'>Industrial Training</a> 
+							</li>
+						</ul>
+					</li>
+					<li><a href "/non-resident-keralites">Non Resident Keralites</a> 
+						<ul>
+							<li><a href='/financial-assistance'>Financial Assistance</a> 
+							</li>
+							<li><a href='/overseas-recruitements'>Overseas Recruitments</a> 
+							</li>
+							<li><a href='/pravasi-welfare'>Pravasi Welfare</a> 
+							</li>
+							<li><a href='/recognized-associations'>Recognized Associations</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li id="Business_Li">
+				<a href="/business">
+					<div class="iconImg">
+						<img src="https://sso.kerala.gov.in/Kerala/images/kerala/menuIcon/Business.png" class="businessImg" id="Bussiness_img">
+					</div> <span class="menu-title">BUSINESS</span> 
+				</a>
+				<ul class="main-menu-ul">
+					<li><a href='/finance-your-project'>Finance Your Project</a> 
+						<ul>
+							<li><a href='/large-enterprises'>Large Enterprises</a> 
+							</li>
+							<li><a href='/small-medium-enterprises'>Small & Medium Enterprises</a> 
+							</li>
+							<li><a href='/enterpreneur-support-schemes'>Entrepreneur Support Schemes</a> 
+							</li>
+							<li><a href='/it-incentive-scheme-ipmc'>IT Incentive Scheme- IPMC</a> 
+							</li>
+							<li><a href='/women-entrepreneurs'>Women Entrepreneurs</a> 
+							</li>
+							<li><a href='/sc/st-entrepreneurs'>SC/ST Entrepreneurs</a> 
+							</li>
+							<li><a href='/energy-saving-projects'>Energy Saving Projects</a> 
+							</li>
+						</ul>
+					</li>
+					<li><a href='/ease-of-doing-business'>Ease of Doing Business</a> 
+						<ul>
+							<li><a href='/single-window-clearance'>Single-Window Clearance</a> 
+							</li>
+							<li><a href='/msme-geo-portal'>MSME Geo Portal</a> 
+							</li>
+							<li><a href='/business-incubation-center'>Business Incubation Center</a> 
+							</li>
+							<li><a href='/land-management-system'>Land Management System</a> 
+							</li>
+						</ul>
+					</li>
+					<li><a href='/industrial-parks'>Industrial Parks</a> 
+						<ul>
+							<li><a href='/industrial-areas'>Industrial Areas</a> 
+							</li>
+							<li><a href='/it-parks'>IT Parks</a> 
+							</li>
+							<li><a href='/kinfra'>KINFRA</a> 
+							</li>
+							<li><a href='/ksitil'>KSITIL</a> 
+							</li>
+							<li><a href='/sidco'>SIDCO</a> 
+							</li>
+							<li><a href='/ksidc'>KSIDC</a> 
+							</li>
+						</ul>
+					</li>
+					<li><a href='/start-up-mission'>Startup Mission</a> 
+						<ul>
+							<li><a href='/financing-start-ups'>Financing Start-Ups</a> 
+							</li>
+							<li><a href='/entrepreneurship-trainings'>Entrepreneurship Trainings</a> 
+							</li>
+							<li><a href='/entrepreneurship-development-club'>Entrepreneurship Development Club</a> 
+							</li>
+						</ul>
+					</li>
+					<li><a href='/business-policies'>Policies</a> 
+					</li>
+					<li><a href='/tenders'>Tenders</a> 
+					</li>
+					<li><a href='/what-s-new'>Advertisements</a> 
+					</li>
+					<li><a href='/short-notices'>Quotations</a> 
+					</li>
+					<li><a href='/application-forms'>Application Forms</a> 
+					</li>
+				</ul>
+			</li>
+			<li class="has-sub" id="Schemes_Li">
+				<a href='/resources'>
+					<div class="iconImg">
+						<img src="https://sso.kerala.gov.in/Kerala/images/kerala/menuIcon/Schemes.png" class="schemesImg" id="Schemes_img">
+					</div> <span class="menu-title">RESOURCES</span> 
+				</a>
+				<ul class="main-menu-ul">
+					<li><a>Orders</a> 
+						<ul>
+							<li><a href='/cabinet-decisions-and-orders'>Cabinet Decisions</a> 
+							</li>
+							<li><a href='/gos/circulars'>Government orders/Circulars</a> 
+							</li>
+							<li><a href='/cmdrf'>CM's Distress Relief Fund</a> 
+							</li>
+						</ul>
+					</li>
+					<li><a>Statutory</a> 
+						<ul>
+							<li><a href='/budget-2018-19'>State Budget</a> 
+							</li>
+							<li><a href='/rti'>Right to Information</a> 
+							</li>
+							<li><a href='/right-to-services'>Right to Services</a> 
+							</li>
+							<li><a href='/acts/rules'>Acts & Rules</a> 
+							</li>
+							<li><a href='/ordinances'>Ordinances</a> 
+							</li>
+							<li><a href='http://www.egazette.kerala.gov.in/' target='_blank'>Kerala Gazette </a> 
+							</li>
+						</ul>
+					</li>
+					<li><a>Others</a> 
+						<ul>
+							<li><a href='/five-year'>Five Year Plans</a> 
+							</li>
+							<li><a href='/economic-review'>Economic Review</a> 
+							</li>
+							<li><a href='/reports-and-manuals'>General Reports</a> 
+							</li>
+							<li><a href='/work-study-report'>Work-Study Report</a> 
+							</li>
+							<li><a href='/publication'>Publications</a> 
+							</li>
+							<li><a href='/notifications'>Notifications</a> 
+							</li>
+							<li><a href='/results'>Results</a> 
+							</li>
+							<li><a href='/guidelines'>Guidelines</a> 
+							</li>
+							<li><a href='/citizen-s-charter'>Citizen's Charter</a> 
+							</li>
+							<li><a href='https://kerala.gov.in/disciplinary-action'>Disciplinary Action</a> 
+							</li>
+							<li><a href='/faqs'>FAQs</a> 
+							</li>
+							<li><a href='/scholarship'>Scholarships</a> 
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li class="has-sub" id="Tourism_Li">
+				<a href='/tourism2'>
+					<div class="iconImg">
+						<img src="https://sso.kerala.gov.in/Kerala/images/kerala/menuIcon/Tourism.png" class="tourismImg" id="Tourism_img">
+					</div> <span class="menu-title">TOURISM</span> 
+				</a>
+				<ul class="main-menu-ul">
+					<li><a href='/kerala-at-a-glance'>Kerala at a Glance</a> 
+					</li>
+					<li><a href='/accessibility'>Accessibility</a> 
+					</li>
+					<li><a href='/major-destinations'>Major Destinations</a> 
+					</li>
+					<li><a href='/specialities'>Specialities</a> 
+					</li>
+					<li><a href='https://www.keralatourism.org/photo-gallery/' target='_blank'>Picture Gallery</a> 
+					</li>
+					<li><a href='/information-centres'>Information Centers</a> 
+					</li>
+				</ul>
+			</li>
+			<li class="has-sub" id="Contact_Li">
+				<a href='/contact-us'>
+					<div class="iconImg">
+						<img src="https://sso.kerala.gov.in/Kerala/images/kerala/menuIcon/ContactUs.png" class="contactUsImg" id="Contact_img">
+					</div> <span class="menu-title">CONTACT US </span> 
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div id="content">
+		<h1><span class="read"> Gos/Circulars Page </span></h1> 
+		<div id="p_p_id_103_" class="portlet-boundary portlet-boundary_103_ portlet-static portlet-static-end "> <span id="p_103"></span> 
+			<div class="portlet-body"></div>
+		</div>
+		<div class="columns-2" id="main-content" role="main">
+			<div class="portlet-layout">
+				<div class="aui-w70 portlet-column portlet-column-first" id="column-1">
+					<div class="portlet-dropzone portlet-column-content portlet-column-content-first" id="layout-column_column-1">
+						<div id="p_p_id_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_" class="portlet-boundary portlet-boundary_GovernmentResolutions_WAR_ssdgportlet_ portlet-static portlet-static-end Government Resolutions-portlet "> <span id="p_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U"></span> 
+							<div class="portlet-body">
+								<section class="portlet" id="portlet_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U">
+									<header class="portlet-topper">
+										<h2 class="portlet-title"> <span class="portlet-title-text" tabindex="0">Government Orders/Circulars</span> </h2> 
+										<ul class="portlet-topper-toolbar" id="portlet-topper-toolbar_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U" type="toolbar"></ul>
+									</header>
+									<div class="portlet-content">
+										<div class=" portlet-content-container" style="">
+											<div class="portlet-body">
+												<script type="text/javascript">
+													/*<![CDATA[*/$(document).ready(function(){$("#secrDept").change(function(){if(window.XMLHttpRequest){xmlhttp=new XMLHttpRequest()}else{xmlhttp=new ActiveXObject("Microsoft.XMLHTTP")}xmlhttp.onreadystatechange=function(){if(xmlhttp.readyState==4&&xmlhttp.status==200){var d=xmlhttp.responseText;if(window.DOMParser){var f=new DOMParser();var e=JSON.parse(d)}else{e=new ActiveXObject("Microsoft.XMLDOM");e.async=false;e.loadXML(d)}var c=JSON.parse(d);$("#lineDepmnt").html("");$("#lineDepmnt").append($("<option>").text("---Select---").attr("value","0"));$.each(c,function(g,h){$("#lineDepmnt").append($("<option>").text(h.lbType).attr("value",h.lbType))})}};var a=$("#secrDept").val();var b="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=findLineDept&p_p_cacheability=cacheLevelPage&p_p_col_id=column-1&p_p_col_count=1&_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_keyword=&_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_fromdate=&_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_todate=&_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_departmentId=58256&_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults&_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_lineDepmnt=0";b=b+"&DEPTID="+a;xmlhttp.open("POST",b,true);xmlhttp.send()})});/*]]>*/
+												</script>
+												<style>
+													.gradient { background: #F2F2F2; /* For browsers that do not support gradients */ background: -webkit-linear-gradient(left top, #F2F2F2, #FFFFFF); /* For Safari 5.1 to 6.0 */ background: -o-linear-gradient(bottom right, #F2F2F2, #FFFFFF); /* For Opera 11.1 to 12.0 */ background: -moz-linear-gradient(bottom right, #F2F2F2, #FFFFFF); /* For Firefox 3.6 to 15 */ background: linear-gradient(to bottom right, #F2F2F2, #FFFFFF); /* Standard syntax (must be last) */ } .headerGradient{ background-color: #167BCE; background-image: -moz-linear-gradient(top, #167BCE 70%, #449BE1 100%); /* FF3.6+ */ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%,#167BCE), color-stop(100%,#449BE1)); /* Chrome,Safari4+ */ background-image: -webkit-linear-gradient(top, #167BCE 70%,#449BE1 100%); /* Chrome10+,Safari5.1+ */ background-image: -o-linear-gradient(top, #167BCE 70%,#449BE1 100%); /* Opera 11.10+ */ background-image: -ms-linear-gradient(top, #167BCE 70%,#449BE1 100%); /* IE10+ */ background-image: linear-gradient(to bottom, #167BCE 70%,#449BE1 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#167BCE', endColorstr='#449BE1',GradientType=0 ); /* IE6-9 */ }
+												</style>
+												<style>
+													.buttonMain { display: inline-block; border-radius: 6px; background-color: #04A2FE; border-color: black; color: white; text-align: center; text-shadow:none; font-size: 14px; padding: 5px; width: 165px; height: 24px; transition: all 0.5s; cursor: pointer; } .buttonMain:hover { background-color: #0659FF; color: white; } .buttonMain span { cursor: pointer; display: inline-block; position: relative; transition: 0.5s; } .buttonMain span:after { /* content: '>>'; */ position: absolute; opacity: 0; top: 0; right: -15px; transition: 0.5s; } .buttonMain:hover span { padding-right: 20px; } .buttonMain:hover span:after { opacity: 1; right: 0; }
+												</style>
+												<style>
+													.displayTagCss{ font-size : 0.9em; font-family : arial; width : 100%; font-weight:bold; padding:2px 3px; } .displayTagCss thead tr, .displayTagCss thead td { /* background : url("/certficateService-portlet/docroot/images/headerbg.gif") repeat-x; */ border : 1px solid #a3ccf5; padding : 2px 4px 2px 4px; margin : 2px 0 10px 0; height : 33px; color : #000000; text-align : center; width: 100%; } .displayTagCss thead th { border: 2px solid black; color:white; font-size:13px; font-weight: bold; text-align: Center; background-color:#167bce; height: 45px; } .displayTagCss tr.odd { background-color : #f0f8ff; font-weight:bold; font-size:12px; height : 35px; width: 100%; } .displayTagCss tr.even { background-color: #D5EAFC; font-weight:bold; font-size:12px; height : 35px; width: 100%; } .dispalyTagMain { width : 100%; }
+												</style>
+												<script type="text/javascript">
+													/*<![CDATA[*/var containsxss="none";if(containsxss=="Y"){alert("enter data in correct format")}function viewDocUrl(a){var b=window.open(a,"DownloadForm","width=610, height=280, top=0,left=0,resizable=yes,titlebar=no,status=no,menubar=no,toolbar=no");b.moveTo(0,0);b.resizeTo(screen.availWidth,screen.availHeight)}function fn_alertmsg(a){var c="This page is redirecting you to External Website.Do you wish to Continue?";var b=confirm(c);if(b){window.open(a,height=600,width=600,resizable="yes")}}function mainfunc(b,a){document.getElementById(b).value=a}function clearForm(a){var c=a.elements;for(var b=0;b<c.length;b++){field_type=c[b].type.toLowerCase();switch(field_type){case"text":case"password":case"textarea":case"hidden":c[b].value="";break;case"radio":case"checkbox":if(c[b].checked){c[b].checked=false}break;case"select-one":case"select-multi":c[b].selectedIndex="";break;default:break}}}function CalenderWindowOpen(e,c){var b=c?c:window.event;var d="/ssdg-portlet";var f=d+"/jsp/Calendar.jsp?requestSent="+e;var a="left="+b.screenX+",top="+b.screenY+",height=200,width=270,toolbar=no,resizable=no,titlebar=no,status=no,memubar=no,location=no,scrollbars=no";newWindow=window.open(f,"Calendar",a)}function checkGR(){var c=document.getElementById("fromdate").value;var k=document.getElementById("todate").value;var f=document.getElementById("secrDept").value;var q=document.getElementById("keyword").value;var g=document.getElementById("lineDepmnt");var b=g.options[g.selectedIndex].text;var l=new Date();var j="";var o="";var m="Please select at least one search criteria.";var p="From Date should be less than  or equal to Current Date.";var h="To Date should be less than  or equal to Current Date.";var e="Please Enter From Date and To Date.";var r="From Date should be Less than or equal To Date.";if(c!=""&&c!=null){var d=c.split("/");var i=d[1]+"/"+d[0]+"/"+d[2];j=new Date(i)}if(k!=""&&k!=null){var n=k.split("/");var a=n[1]+"/"+n[0]+"/"+n[2];o=new Date(a)}if(j>l){alert(p);return false}if(o>l){alert(h);return false}if((j!=""&&o=="")||(o!=""&&j=="")){alert(e);return false}if(j>o){alert(r);return false}if(j==""&&o==""&&f==""&&q==""){alert(m);return false}else{document.forms.searchBean.submit();return true}}function showSearch(a){if(document.getElementById(a).style.display=="block"){document.getElementById(a).style.display="none"}else{document.getElementById(a).style.display="block"}}function HelpDocLoad(b){var c="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=HelpDocGO&p_p_cacheability=cacheLevelPage&p_p_col_id=column-1&p_p_col_count=1&_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_keyword=&_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_fromdate=&_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_todate=&_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_departmentId=58256&_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults&_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_lineDepmnt=0";c=c+"&language="+b;var a=window.open("","_blank","toolbars=no,menubar=no,location=no,scrollbars=yes,resizable=yes,status=yes");a.document.write('<iframe src="'+c+'" width="100%" height="530px"  valign="center" id="loadPreview" scrolling="yes" name="loadPreview" ></iframe>')};/*]]>*/
+												</script>
+												<form id="searchBean" action="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&amp;p_p_lifecycle=0&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_col_id=column-1&amp;p_p_col_count=1&amp;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults" method="post">
+													<div class="gradient">
+														<br/>
+														<div>
+															<table class="tableTag" width="100%">
+																<tr>
+																	<td colspan="4" align="center">How to search?</td>
+																</tr>
+																<tr>
+																	<td colspan="4" align="center"><a href="Javascript:HelpDocLoad('Eng')" style="text-decoration:none;color:#0659FF">English</a> /<a href="Javascript:HelpDocLoad('Mal')" style="text-decoration:none;color:#0659FF">Malayalam</a>
+																	</td>
+																</tr>
+																<tr>
+																	<td class="hidden">&nbsp;</td>
+																</tr>
+																<tr>
+																	<td class="tdTag" style="font-family: arial;"> <b><label for="departmentId" id="department"> Secretariat Department </label></b>
+																	</td>
+																	<td class="tdTag" style="font-family: arial;">
+																		<select id="secrDept" name="departmentId" style="border-radius:5px;border:1px solid #0098d2; width:152px;" name="secrDept" class="sizeTagDept">
+																			<option title="Please select the department" value="">---Select---</option>
+																			<option value="32452">Agriculture Development and Farmers welfare</option>
+																			<option value="977146">Ayush</option>
+																			<option value="218587">Backward Classes Development</option>
+																			<option value="42497">Co-operation</option>
+																			<option value="216212">Coastal Shipping and Inland Navigation</option>
+																			<option value="576402">Consumer Affairs</option>
+																			<option value="576444">Cultural Affairs</option>
+																			<option value="197728">Disaster Management</option>
+																			<option value="576622">Election</option>
+																			<option value="190895">Electronics and Information Technology</option>
+																			<option value="500696">Environment</option>
+																			<option value="42975">Finance</option>
+																			<option value="198708">Fisheries and Ports</option>
+																			<option value="57919">Food and Civil supplies</option>
+																			<option value="42996">Forest and Wildlife</option>
+																			<option value="58256" selected="selected">General Administration</option>
+																			<option value="198591">General Education</option>
+																			<option value="190865">Health and Family Welfare</option>
+																			<option value="59358">Higher Education</option>
+																			<option value="200768">Home</option>
+																			<option value="215068">Housing Development</option>
+																			<option value="197629">Industries</option>
+																			<option value="198764">Labour and Skills</option>
+																			<option value="59468">Law</option>
+																			<option value="57982">Local Self Government</option>
+																			<option value="6525505">Minority</option>
+																			<option value="200715">Non- Resident Keralites Affairs</option>
+																			<option value="220887">Parliamentary Affairs</option>
+																			<option value="200515">Personnel and Administrative Reforms</option>
+																			<option value="202623">Planning and Economic Affairs</option>
+																			<option value="216275">Power</option>
+																			<option value="59244">Public Works</option>
+																			<option value="58233">Revenue</option>
+																			<option value="577418">Sainik Welfare</option>
+																			<option value="189770">SC ST</option>
+																			<option value="577355">Science and Technology</option>
+																			<option value="58252">Social Justice</option>
+																			<option value="197711">Sports and Youth Affairs</option>
+																			<option value="219437">Stores Purchase</option>
+																			<option value="59058">Taxes</option>
+																			<option value="14301">Tourism</option>
+																			<option value="198832">Transport</option>
+																			<option value="202591">Vigilance</option>
+																			<option value="42994">Water Resources</option>
+																		</select>
+																	</td>
+																	<td class="tdTag" style="font-family: arial;"> <b>Field Department</b>
+																		</font><font color="red"></font> 
+																	</td>
+																	<td class="tdTag" style="font-family: arial;">
+																		<select id="lineDepmnt" name="lineDepmnt" style="border-radius:5px;border:1px solid #0098d2; width:152px;" name="lineDepmnt" class="sizeTagDept">
+																			<option title="Select Line Department" value="0" selected="selected">---Select---</option>
+																			<option value="General Orders">General Orders</option>
+																			<option value="Information Public Relations">Information Public Relations</option>
+																		</select>
+																	</td>
+																</tr>
+																<tr>
+																	<td class="tdTag" style="font-family: arial;"><b><label for="fromdate" id="fromDate1"> From Date </label></b>
+																	</td>
+																	<td class="tdTag" style="font-family: arial;">
+																		<input id="fromdate" name="fromdate" style="border-radius:5px;border:1px solid #0098d2;" onclick="CalenderWindowOpen('fromdate',event);" class="sizeDate" readonly="readonly" type="text" value="" />
+																		<a href="#" onclick="CalenderWindowOpen('fromdate',event);">
+																			<img src="/ssdg-portlet/images/calendar.gif" alt="Calendar">
+																		</a>
+																	</td>
+																	<td class="tdTag" style="font-family: arial;"><b><label for="todate" id="toDate1"> To Date </label></b>
+																	</td>
+																	<td class="tdTag" style="font-family: arial;">
+																		<input id="todate" name="todate" style="border-radius:5px;border:1px solid #0098d2;" onclick="CalenderWindowOpen('todate',event);" class="sizeDate" readonly="readonly" type="text" value="" />
+																		<a href="#" onclick="CalenderWindowOpen('todate',event);">
+																			<img src="/ssdg-portlet/images/calendar.gif" alt="Calendar">
+																		</a>
+																	</td>
+																</tr>
+																<!-- <tr><td class="tdTag"></td><td class="tdTag">&nbsp;</td><td class="tdTag"></td><td class="tdTag"></td> <tr> -->
+																<td class="tdTag" style="font-family: arial;"><b><label for="keyword" id="keyword1"> Keyword/G.O Number </label></b>
+																</td>
+																<td class="tdTag" style="font-family: arial;">
+																	<input id="keyword" name="keyword" style="border-radius:5px;border:1px solid #0098d2;width:152px;" class="sizeTag" type="text" value="" maxlength="50" />
+																</td>
+																<!-- <td class="tdTag" style=font-family: arial;"></td> <td class="tdTag" style=font-family: arial;"></td> -->
+																</tr>
+															</table>
+															<br/>
+															<table class="tableTag">
+																<tr>
+																	<td class="alignRight" style="font-family: arial;">
+																		<button type="button" class="buttonMain" name="GR" id="GR" value="Search" title="Search" onclick="checkGR()"> <span>Search</span> 
+																		</button>&nbsp;&nbsp;</td>
+																	<td class="alignLeft" style="font-family: arial;">
+																		<button type="button" class="buttonMain" name="GRReset" id="GRReset" value="Reset" title="Reset" onclick="clearForm(this.form);"> <span>Reset</span> 
+																		</button>
+																	</td>
+																</tr>
+															</table>
+														</div>
+														<div class="tab-box"></div>
+														<div class="tab-box">
+															<table class="displayTagCss">
+																<tr>
+																	<td class="displaytdTag" style="font-family: arial;"> <span class="pagebanner">12,030 items found, displaying 1 to 10 </span><span class="pagelinks"> [First/Prev] <strong>1</strong>, <a href="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_lifecycle=0&amp;p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&amp;keyword=&amp;p_p_col_count=1&amp;myaction=grResults&amp;todate=&amp;p_p_col_id=column-1&amp;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults&amp;p_p_state=normal&amp;fromdate=&amp;departmentId=58256&amp;d-436484-p=2&amp;p_p_mode=view&amp;lineDepmnt=0" title="Go to page 2">2</a>, <a href="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_lifecycle=0&amp;p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&amp;keyword=&amp;p_p_col_count=1&amp;myaction=grResults&amp;todate=&amp;p_p_col_id=column-1&amp;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults&amp;p_p_state=normal&amp;fromdate=&amp;departmentId=58256&amp;d-436484-p=3&amp;p_p_mode=view&amp;lineDepmnt=0" title="Go to page 3">3</a>, <a href="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_lifecycle=0&amp;p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&amp;keyword=&amp;p_p_col_count=1&amp;myaction=grResults&amp;todate=&amp;p_p_col_id=column-1&amp;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults&amp;p_p_state=normal&amp;fromdate=&amp;departmentId=58256&amp;d-436484-p=4&amp;p_p_mode=view&amp;lineDepmnt=0" title="Go to page 4">4</a>, <a href="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_lifecycle=0&amp;p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&amp;keyword=&amp;p_p_col_count=1&amp;myaction=grResults&amp;todate=&amp;p_p_col_id=column-1&amp;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults&amp;p_p_state=normal&amp;fromdate=&amp;departmentId=58256&amp;d-436484-p=5&amp;p_p_mode=view&amp;lineDepmnt=0" title="Go to page 5">5</a>, <a href="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_lifecycle=0&amp;p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&amp;keyword=&amp;p_p_col_count=1&amp;myaction=grResults&amp;todate=&amp;p_p_col_id=column-1&amp;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults&amp;p_p_state=normal&amp;fromdate=&amp;departmentId=58256&amp;d-436484-p=6&amp;p_p_mode=view&amp;lineDepmnt=0" title="Go to page 6">6</a>, <a href="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_lifecycle=0&amp;p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&amp;keyword=&amp;p_p_col_count=1&amp;myaction=grResults&amp;todate=&amp;p_p_col_id=column-1&amp;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults&amp;p_p_state=normal&amp;fromdate=&amp;departmentId=58256&amp;d-436484-p=7&amp;p_p_mode=view&amp;lineDepmnt=0" title="Go to page 7">7</a>, <a href="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_lifecycle=0&amp;p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&amp;keyword=&amp;p_p_col_count=1&amp;myaction=grResults&amp;todate=&amp;p_p_col_id=column-1&amp;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults&amp;p_p_state=normal&amp;fromdate=&amp;departmentId=58256&amp;d-436484-p=8&amp;p_p_mode=view&amp;lineDepmnt=0" title="Go to page 8">8</a> [<a href="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_lifecycle=0&amp;p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&amp;keyword=&amp;p_p_col_count=1&amp;myaction=grResults&amp;todate=&amp;p_p_col_id=column-1&amp;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults&amp;p_p_state=normal&amp;fromdate=&amp;departmentId=58256&amp;d-436484-p=2&amp;p_p_mode=view&amp;lineDepmnt=0">Next</a>/<a href="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_lifecycle=0&amp;p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&amp;keyword=&amp;p_p_col_count=1&amp;myaction=grResults&amp;todate=&amp;p_p_col_id=column-1&amp;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults&amp;p_p_state=normal&amp;fromdate=&amp;departmentId=58256&amp;d-436484-p=1203&amp;p_p_mode=view&amp;lineDepmnt=0">Last</a>]</span> 
+																		<table id="GoList" class="table_n">
+																			<thead>
+																				<tr>
+																					<th>Sr.No.</th>
+																					<th>Department Name</th>
+																					<th>Title</th>
+																					<th>Issue Date</th>
+																					<th>View/Download</th>
+																				</tr>
+																			</thead>
+																			<tbody>
+																				<tr class="odd">
+																					<td class="dispalySrNoTag_n">1</td>
+																					<td class="dispalyColTag_n">General Administration</td>
+																					<td class="dispalyColTag_n1">General Administration Department -social volunteers sena-special plan head -sanctioned -orders issued G.O(Rt)No.1505-GAD</td>
+																					<td class="dispalyModiDateTag_n">13/05/2020</td>
+																					<td class="dispalyDownloadTag_n">
+																						<a href="javascript:viewDocUrl('/documents/10180/6a788f36-5dbb-45a2-b329-a81b70ad4aad')">
+																							<img src='/ssdg-portlet/images/pdficon.gif' alt='View/Download' title='View/Download' height='20' width='20' />(102 KB)</a>
+																					</td>
+																				</tr>
+																				<tr class="even">
+																					<td class="dispalySrNoTag_n">2</td>
+																					<td class="dispalyColTag_n">General Administration</td>
+																					<td class="dispalyColTag_n1">GAD - Novel Corona Virus disease (COVID-19) containment activities - Paid Quarantine facility for returnees - Guidelines - Orders issued. - G.O.(Rt) No. 1492-GAD</td>
+																					<td class="dispalyModiDateTag_n">12/05/2020</td>
+																					<td class="dispalyDownloadTag_n">
+																						<a href="javascript:viewDocUrl('/documents/10180/ade9278b-08b9-4cfe-8bfd-1fdc5e126dde')">
+																							<img src='/ssdg-portlet/images/pdficon.gif' alt='View/Download' title='View/Download' height='20' width='20' />(592 KB)</a>
+																					</td>
+																				</tr>
+																				<tr class="odd">
+																					<td class="dispalySrNoTag_n">3</td>
+																					<td class="dispalyColTag_n">General Administration</td>
+																					<td class="dispalyColTag_n1">GAD - Novel Corona Virus disease (COVID-19) - interstate movement of migrant labourers, tourists, students & other persons stranded in Kerala & other States owing to national lock down - guidelines for infrastructure arrangements - G.O.(Rt) No. 1489-GAD</td>
+																					<td class="dispalyModiDateTag_n">11/05/2020</td>
+																					<td class="dispalyDownloadTag_n">
+																						<a href="javascript:viewDocUrl('/documents/10180/d0382ec7-aba9-4e1f-bedf-c528105bea83')">
+																							<img src='/ssdg-portlet/images/pdficon.gif' alt='View/Download' title='View/Download' height='20' width='20' />(207 KB)</a>
+																					</td>
+																				</tr>
+																				<tr class="even">
+																					<td class="dispalySrNoTag_n">4</td>
+																					<td class="dispalyColTag_n">General Administration</td>
+																					<td class="dispalyColTag_n1">GAD - COVID-19 - Regulations to contain the COVID-19 pandemic - total lock-down on Sundays - Orders issued. - G.O.(Ms) No. 94-GAD</td>
+																					<td class="dispalyModiDateTag_n">09/05/2020</td>
+																					<td class="dispalyDownloadTag_n">
+																						<a href="javascript:viewDocUrl('/documents/10180/404a512f-8cac-4f94-af90-fd9ee4a14f76')">
+																							<img src='/ssdg-portlet/images/pdficon.gif' alt='View/Download' title='View/Download' height='20' width='20' />(294 KB)</a>
+																					</td>
+																				</tr>
+																				<tr class="odd">
+																					<td class="dispalySrNoTag_n">5</td>
+																					<td class="dispalyColTag_n">General Administration</td>
+																					<td class="dispalyColTag_n1">GAD - Novel Corona Virus Disease (COVID-19) war room duty - appointment of officers - orders issued. - G.O.(Rt) No. 1469-GAD</td>
+																					<td class="dispalyModiDateTag_n">08/05/2020</td>
+																					<td class="dispalyDownloadTag_n">
+																						<a href="javascript:viewDocUrl('/documents/10180/96e6645b-4526-4d43-814f-63a208ffdda6')">
+																							<img src='/ssdg-portlet/images/pdficon.gif' alt='View/Download' title='View/Download' height='20' width='20' />(1382 KB)</a>
+																					</td>
+																				</tr>
+																				<tr class="even">
+																					<td class="dispalySrNoTag_n">6</td>
+																					<td class="dispalyColTag_n">General Administration</td>
+																					<td class="dispalyColTag_n1">GAD - Covid-19 - SoP for domestic passengers entering the state through land borders - Modified - Orders issued. - G.O.(Rt) No. 1470-GAD</td>
+																					<td class="dispalyModiDateTag_n">08/05/2020</td>
+																					<td class="dispalyDownloadTag_n">
+																						<a href="javascript:viewDocUrl('/documents/10180/02ab112d-cec3-481e-b38c-794fada30cd3')">
+																							<img src='/ssdg-portlet/images/pdficon.gif' alt='View/Download' title='View/Download' height='20' width='20' />(1255 KB)</a>
+																					</td>
+																				</tr>
+																				<tr class="odd">
+																					<td class="dispalySrNoTag_n">7</td>
+																					<td class="dispalyColTag_n">General Administration</td>
+																					<td class="dispalyColTag_n1">General Administration Department -fourth anniversary celebrations of state government -cancelled-orders issued G.O(Ms)No.92</td>
+																					<td class="dispalyModiDateTag_n">07/05/2020</td>
+																					<td class="dispalyDownloadTag_n">
+																						<a href="javascript:viewDocUrl('/documents/10180/fd984ebc-7122-4b8c-85d9-ed99ebfa0853')">
+																							<img src='/ssdg-portlet/images/pdficon.gif' alt='View/Download' title='View/Download' height='20' width='20' />(39 KB)</a>
+																					</td>
+																				</tr>
+																				<tr class="even">
+																					<td class="dispalySrNoTag_n">8</td>
+																					<td class="dispalyColTag_n">General Administration</td>
+																					<td class="dispalyColTag_n1">General Administration Department - Establishment - Finance Department - Declaration of probation of Officers in the cadre of Under Secretary in Finance Department - Sanction accorded - Orders issued. - G.O.(Rt) No. 1444-GAD</td>
+																					<td class="dispalyModiDateTag_n">06/05/2020</td>
+																					<td class="dispalyDownloadTag_n">
+																						<a href="javascript:viewDocUrl('/documents/10180/f1e8cd78-e91d-4c4f-af75-d8f3c8044876')">
+																							<img src='/ssdg-portlet/images/pdficon.gif' alt='View/Download' title='View/Download' height='20' width='20' />(325 KB)</a>
+																					</td>
+																				</tr>
+																				<tr class="odd">
+																					<td class="dispalySrNoTag_n">9</td>
+																					<td class="dispalyColTag_n">General Administration</td>
+																					<td class="dispalyColTag_n1">General Administration Department - Establishment - Finance Department - Declaration of probation of Officers in the cadre of Joint Secretary in Finance Department - Sanction accorded - Orders issued. - G.O.(Rt) No. 1445-GAD</td>
+																					<td class="dispalyModiDateTag_n">06/05/2020</td>
+																					<td class="dispalyDownloadTag_n">
+																						<a href="javascript:viewDocUrl('/documents/10180/84ccd348-ddaf-4ffb-af4e-6ad42e8c4c92')">
+																							<img src='/ssdg-portlet/images/pdficon.gif' alt='View/Download' title='View/Download' height='20' width='20' />(56 KB)</a>
+																					</td>
+																				</tr>
+																				<tr class="even">
+																					<td class="dispalySrNoTag_n">10</td>
+																					<td class="dispalyColTag_n">General Administration</td>
+																					<td class="dispalyColTag_n1">General Administration Department - Establishment - Finance Department - Declaration of probation of Officers in the cadre of Deputy Secretary, Finance Department - Sanction accorded - Orders issued. - G.O.(Rt) No. 1435-GAD</td>
+																					<td class="dispalyModiDateTag_n">06/05/2020</td>
+																					<td class="dispalyDownloadTag_n">
+																						<a href="javascript:viewDocUrl('/documents/10180/b590d712-52be-4783-852d-2547b2affbd4')">
+																							<img src='/ssdg-portlet/images/pdficon.gif' alt='View/Download' title='View/Download' height='20' width='20' />(43 KB)</a>
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table><span class="pagebanner">12,030 items found, displaying 1 to 10 </span><span class="pagelinks"> [First/Prev] <strong>1</strong>, <a href="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_lifecycle=0&amp;p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&amp;keyword=&amp;p_p_col_count=1&amp;myaction=grResults&amp;todate=&amp;p_p_col_id=column-1&amp;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults&amp;p_p_state=normal&amp;fromdate=&amp;departmentId=58256&amp;d-436484-p=2&amp;p_p_mode=view&amp;lineDepmnt=0" title="Go to page 2">2</a>, <a href="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_lifecycle=0&amp;p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&amp;keyword=&amp;p_p_col_count=1&amp;myaction=grResults&amp;todate=&amp;p_p_col_id=column-1&amp;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults&amp;p_p_state=normal&amp;fromdate=&amp;departmentId=58256&amp;d-436484-p=3&amp;p_p_mode=view&amp;lineDepmnt=0" title="Go to page 3">3</a>, <a href="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_lifecycle=0&amp;p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&amp;keyword=&amp;p_p_col_count=1&amp;myaction=grResults&amp;todate=&amp;p_p_col_id=column-1&amp;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults&amp;p_p_state=normal&amp;fromdate=&amp;departmentId=58256&amp;d-436484-p=4&amp;p_p_mode=view&amp;lineDepmnt=0" title="Go to page 4">4</a>, <a href="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_lifecycle=0&amp;p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&amp;keyword=&amp;p_p_col_count=1&amp;myaction=grResults&amp;todate=&amp;p_p_col_id=column-1&amp;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults&amp;p_p_state=normal&amp;fromdate=&amp;departmentId=58256&amp;d-436484-p=5&amp;p_p_mode=view&amp;lineDepmnt=0" title="Go to page 5">5</a>, <a href="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_lifecycle=0&amp;p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&amp;keyword=&amp;p_p_col_count=1&amp;myaction=grResults&amp;todate=&amp;p_p_col_id=column-1&amp;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults&amp;p_p_state=normal&amp;fromdate=&amp;departmentId=58256&amp;d-436484-p=6&amp;p_p_mode=view&amp;lineDepmnt=0" title="Go to page 6">6</a>, <a href="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_lifecycle=0&amp;p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&amp;keyword=&amp;p_p_col_count=1&amp;myaction=grResults&amp;todate=&amp;p_p_col_id=column-1&amp;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults&amp;p_p_state=normal&amp;fromdate=&amp;departmentId=58256&amp;d-436484-p=7&amp;p_p_mode=view&amp;lineDepmnt=0" title="Go to page 7">7</a>, <a href="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_lifecycle=0&amp;p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&amp;keyword=&amp;p_p_col_count=1&amp;myaction=grResults&amp;todate=&amp;p_p_col_id=column-1&amp;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults&amp;p_p_state=normal&amp;fromdate=&amp;departmentId=58256&amp;d-436484-p=8&amp;p_p_mode=view&amp;lineDepmnt=0" title="Go to page 8">8</a> [<a href="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_lifecycle=0&amp;p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&amp;keyword=&amp;p_p_col_count=1&amp;myaction=grResults&amp;todate=&amp;p_p_col_id=column-1&amp;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults&amp;p_p_state=normal&amp;fromdate=&amp;departmentId=58256&amp;d-436484-p=2&amp;p_p_mode=view&amp;lineDepmnt=0">Next</a>/<a href="https://kerala.gov.in/gos/circulars;jsessionid=0AA23DD7F5ACD629DD3F6F71028371C3.node2?p_p_lifecycle=0&amp;p_p_id=GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U&amp;keyword=&amp;p_p_col_count=1&amp;myaction=grResults&amp;todate=&amp;p_p_col_id=column-1&amp;_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction=grResults&amp;p_p_state=normal&amp;fromdate=&amp;departmentId=58256&amp;d-436484-p=1203&amp;p_p_mode=view&amp;lineDepmnt=0">Last</a>]</span> 
+																	</td>
+																</tr>
+															</table>
+															<br />
+														</div>
+														<style>
+															@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) { /* Force table to not be like tables anymore */ .tableTag, .tableTag tr, .tableTag th, .tableTag td { display: block; border-collapse: collapse; } .hidden { display: none } /* Hide table headers (but not display: none;, for accessibility) */ .tableTag tr { height: auto; border-collapse: collapse;} .tableTag td { /* Behave like a "row" */ border: none; position: relative; } .tableTag td:before { /* Now like a table header */ position: absolute; /* Top/left values mimic padding */ top: 6px; left: 6px; padding-right: 10px; white-space: nowrap; } /* Label the data */ .table_n td:nth-of-type(1):before { content: "Secretariat Department:"; font-weight: bold;} .table_n td:nth-of-type(2):before { content: "Field Department:"; font-weight: bold; } .table_n td:nth-of-type(3):before { content: "From Date:"; font-weight: bold;} .table_n td:nth-of-type(4):before { content: "To Date:"; font-weight: bold;} .table_n td:nth-of-type(5):before { content: "Keyword/G.O Number:"; font-weight: bold;} } @media screen and (max-width: 294px){ .tableTag { margin-left:15%; } } @media screen and (min-width: 294px) and (max-width: 360px) { .tableTag { margin-left:20%; } } @media screen and (min-width: 360px) and (max-width: 481px) { .tableTag { margin-left:30%; } } @media screen and (min-width: 481px) and (max-width: 760px) { .tableTag { margin-left:40%; } } @media screen and (min-width: 760px) and (max-width: 950px) { .tableTag { margin-left:0%; } }
+														</style>
+														<style>
+															.table_n { border:2px solid black;width:100%; } .table_n tr.odd{ background-color: #fefefe; font-weight: normal; } .table_n tr.even { background-color: #D5eafc; font-weight: normal; } .dispalySrNoTag_n{ border:2px solid black; } .dispalyColTag_n{ border:2px solid black; } .dispalyColTag_n1{ border:2px solid black; } .dispalyModiDateTag_n{ border:2px solid black; } .dispalyDownloadTag_n{ border:2px solid black; } @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) { /* Force table to not be like tables anymore */ .table_n, .table_n tr.even, .table_n tr.odd, .table_n th { display: inline-block; border-collapse: collapse; word-break: break-all; } /* Hide table headers (but not display: none;, for accessibility) */ thead tr { position: absolute; top: -9999px; left: -9999px; } .table_n tr.even { border: 1px solid #ccc; height: auto; border-collapse: collapse; } .table_n tr.odd { border: 1px solid #ccc; height: auto;border-collapse: collapse; } .table_n td { /* Behave like a "row" */ padding-right: 3%; border: none; position: relative; padding-left: 50%; display:block !important; } .table_n td:before { /* Now like a table header */ position: absolute; /* Top/left values mimic padding top: 6px; */ left: 6px; width: 45%; padding-right: 10px; white-space: nowrap; } .dispalyDownloadTag_n{ border:2px solid black; } /* Label the data */ .table_n td:nth-of-type(1):before { content: "Sr.No."; font-weight: bold;} .table_n td:nth-of-type(2):before { content: "Department Name"; font-weight: bold;} .table_n td:nth-of-type(3):before { content: "Title"; font-weight: bold; } .table_n td:nth-of-type(4):before { content: "Issue Date"; font-weight: bold;} .table_n td:nth-of-type(5):before { content: "View/Download"; font-weight: bold;} } }
+														</style>
+														<style>
+															.tdTag { height: 30px; padding: 3px; }
+														</style>
+														<div style="font-family: arial;font-size: 8pt;">It requires Adobe Acrobat Reader to be viewed. <a href="javascript:fn_alertmsg('http://get.adobe.com/reader')" style="color: rgb(35, 103, 173); text-decoration: none;">Click here to download Adobe Acrobat Reader(if not available).<span class="read">Adobe Acrobat Reader(External website that opens in a new window)</span></a> 
+														</div>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="aui-w30 portlet-column portlet-column-last" id="column-2">
+					<div class="portlet-dropzone portlet-column-content portlet-column-content-last" id="layout-column_column-2">
+						<div id="p_p_id_56_INSTANCE_z7J7odLmDdYO_" class="portlet-boundary portlet-boundary_56_ portlet-static portlet-static-end portlet-borderless portlet-journal-content "> <span id="p_56_INSTANCE_z7J7odLmDdYO"></span> 
+							<div class="portlet-body">
+								<div class="portlet-borderless-container" style="">
+									<div class="portlet-body">
+										<div class="journal-content-article" id="article_10154_10180_636003_2.6">
+											<style type="text/css">
+												.side-nav-ul{list-style-type:non e;margin:0;padding:0;width:280px;background-color:#f1f1f1;}.side-nav-li a{display:block;color:#000;padding:8px 16px;text-decoration:none;}.side-nav-li a.active{background-color:#2166a1;color:white;}.side-nav-li a:hover:not(.active){color:#2166a1;font-weight:bold;}
+											</style>
+											<ul class="side-nav-ul">
+												<li class="side-nav-li" style="background-color: #dcd9d9;"> <a href="https://kerala.gov.in/resources"><b>Resources</b></a>
+												</li>
+												<li class="side-nav-li"> <a href="https://kerala.gov.in/web/guest/cabinet-decisions-and-orders">Cabinet Decisions</a>
+												</li>
+												<li class="side-nav-li"> <a href="https://kerala.gov.in/web/guest/gos/circulars">Government Orders/ Circulars</a>
+												</li>
+												<li class="side-nav-li"> <a href="https://kerala.gov.in/web/guest/cmdrf">Chief Minister's Distress Relief Fund</a>
+												</li>
+												<li class="side-nav-li"> <a href="https://kerala.gov.in/budget-2018-19">State Budget</a>
+												</li>
+												<li class="side-nav-li"> <a href="https://kerala.gov.in/rti">Right to Information</a>
+												</li>
+												<li class="side-nav-li"> <a href="https://kerala.gov.in/right-to-services">Right to Services</a>
+												</li>
+												<li class="side-nav-li"> <a href="https://kerala.gov.in/acts/rules">Acts &amp; Rules</a>
+												</li>
+												<li class="side-nav-li"> <a href="https://kerala.gov.in/web/guest/ordinances">Ordinances</a>
+												</li>
+												<li class="side-nav-li"> <a href="http://www.egazette.kerala.gov.in/" target="_blank">Kerala Gazette</a>
+												</li>
+												<li class="side-nav-li"> <a href="https://www.kerala.gov.in/documents/10180/6e5937c7-bed8-4653-ae56-3cb37a40cec2" target="_blank">Government Diary 2019</a>
+												</li>
+												<li class="side-nav-li"> <a href="https://kerala.gov.in/five-year">Five Year Plans</a>
+												</li>
+												<li class="side-nav-li"> <a href="https://kerala.gov.in/economic-review">Economic Review</a>
+												</li>
+												<li class="side-nav-li"> <a href="https://kerala.gov.in/reports-and-manuals">General Reports</a>
+												</li>
+												<li class="side-nav-li"> <a href="https://kerala.gov.in/work-study-report">Work Study Report</a>
+												</li>
+												<li class="side-nav-li"> <a href="https://kerala.gov.in/publication">Publications</a>
+												</li>
+												<li class="side-nav-li"> <a href="https://kerala.gov.in/notifications">Notifications</a>
+												</li>
+												<li class="side-nav-li"> <a href="https://kerala.gov.in/results">Results</a>
+												</li>
+												<li class="side-nav-li"> <a href="https://kerala.gov.in/guidelines">Guidelines</a>
+												</li>
+												<li class="side-nav-li"> <a href="https://kerala.gov.in/citizen-s-charter">Citizen's Charter</a>
+												</li>
+												<li class="side-nav-li"> <a href="https://kerala.gov.in/disciplinary-action">Disciplinary Action</a>
+												</li>
+												<li class="side-nav-li"> <a href="https://kerala.gov.in/faqs">FAQs</a>
+												</li>
+												<li class="side-nav-li"> <a href="https://kerala.gov.in/scholarship">Scholarships</a>
+												</li>
+											</ul>
+											<script>
+												/*<![CDATA[*/$(document).ready(function(){$(".side-nav-ul li a").each(function(){var a=$(this).attr("href");if(a==location.href){$(this).addClass("active")}})});/*]]>*/
+											</script>
+										</div>
+										<div class="entry-links"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<form action="#" id="hrefFm" method="post" name="hrefFm"> <span></span> 
+		</form>
+	</div>
+	<a href="#" id="scroll-top">
+		<img src="https://sso.kerala.gov.in/Kerala/images/vectorpaint.png" class="scroll-img">
+	</a>
+	<div data-role="footer" class="footer_align">
+		<footer id="footer" class="footer">
+			<div class="footerRow">
+				<div class="footerCol0"> <font class="footerSubHeading"></font> 
+					<ul>
+						<li><a href="/about-the-portal">About the Portal</a> 
+						</li>
+						<li><a href="/terms-of-use">Terms of Use</a> 
+						</li>
+						<li><a href="/accessibility-statement">Accessibility Statement</a> 
+						</li>
+						<li><a href="/disclaimer">Disclaimer</a> 
+						</li>
+						<li><a href="/copyright">Website Policy</a> 
+						</li>
+					</ul>
+				</div>
+				<div class="footerCol1"> <font class="footerSubHeading"></font> 
+					<ul style="">
+						<li><a href="/site-map">Site Map</a>
+						</li>
+						<li><a href="/help">Help</a>
+						</li>
+						<li><a href="/contact-us">Contact Us</a>
+						</li>
+						<li><a href="/faq">FAQ</a>
+						</li>
+						<li><a href="/screen-reader">Screen Reader</a>
+						</li>
+						<li><a href="/feedback">Feedback</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footerCol2"> <font class="footerSubHeading">CONNECT WITH US</font> 
+					<div class="iconset">
+						<a href="https://www.facebook.com/keralainformation/" target="_blank"> <i class="fa fa-facebook socialIcon" aria-hidden="true" title="Facebook"></i> 
+						</a>
+						<a href="https://twitter.com/keralainfoiprd" target="_blank"> <i class="fa fa fa-twitter socialIcon" aria-hidden="true" title="Twitter"></i> 
+						</a>
+						<a href="https://www.youtube.com/iprdkerala" target="_blank"> <i class="fa fa-youtube socialIcon" aria-hidden="true" title="Youtube"></i> 
+						</a>
+					</div>
+					<div>
+						<ul style="margin-top:4%;">
+							<li class="powered-by">Page last updated on:
+								<br/>Wed Oct 31 18:13:07 IST 2018
+								<br/>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footerCol3"> <font class="footerSubHeading">KERALA STATE IT MISSION</font> 
+					<ul style="">
+						<li>ICT Campus, Vellayambalam,</li>
+						<li>Thiruvananthapuram, Kerala 695033</li>
+						<li>Tel: +91 471 2726881, 2314307, 2725646</li>
+						<li>Fax: +91 471 2314284</li>
+						<li>Email: admin.ksitm@kerala.gov.in</li>
+					</ul>
+				</div>
+				<div class="footerCol4">
+					<a href="http://www.itmission.kerala.gov.in/" target="_blank">
+						<img src="https://sso.kerala.gov.in/Kerala/images/kerala/KSITM.png" class="ksitmLogo">
+					</a>
+				</div>
+			</div>
+			<ul id="footer2">
+				<li><span id="serverTime">2020-05-18 13:26:48</span>
+				</li>
+				<li><span id="serverTime"> <div id="p_p_id_NumberOfHits_WAR_NumberOfHitsportlet_" class="portlet-boundary portlet-boundary_NumberOfHits_WAR_NumberOfHitsportlet_ portlet-static portlet-static-end portlet-borderless NumberOfHits-portlet " > <span id="p_NumberOfHits_WAR_NumberOfHitsportlet"></span> 
+					<div class="portlet-body">
+						<div class="portlet-borderless-container" style="">
+							<div class="portlet-body">
+								<script>
+									/*<![CDATA[*/$(document).ready(function(){});/*]]>*/
+								</script>
+								<div style="color: #f9ee92; font-weight:bold; text-align: center; font-size:14px; width:100%; background: rgba(0,0,0,0);">
+									<input type="hidden" id="niroop" value="0AA23DD7F5ACD629DD3F6F71028371C3.node2" />
+								</div>
+							</div>
+						</div>
+					</div>
+	</div>
+	</span>
+	</li>
+	<li class="lastfooter">This is the State Portal of Kerala designed and developed by <a href="https://www.tcs.com/" target="_blank" style="color:#f7be33;">Tata Consultancy Services Ltd.</a> &nbsp;content owned and updated by <a href="http://prd.kerala.gov.in/" target="_blank" style="color:#f7be33;">Information & Public Relations Department</a> 
+	</li>
+	<li class="lastfooter">Portal owned by<a href="http://www.itmission.kerala.gov.in/" target="_blank" style="color:#f7be33;font-weight:600;">&nbsp; Kerala State IT Mission (KSITM)</a> 
+	</li>
+	<li class="lastfooter">Copyrights @ Government of Kerala.</li>
+	</ul>
+	<br/>
+	</footer>
+	<script type="text/javascript">
+		/*<![CDATA[*/AUI().use("viewport");/*]]>*/
+	</script>
+	<script>
+		/*<![CDATA[*/$("#scroll-top").click(function(){if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")||location.hostname==this.hostname){var a=$(this.hash);a=a.length?a:$(".header");if(a.length){$("html,body").animate({scrollTop:a.offset().top-70},1000);return false}}});$(window).scroll(function(){if($(window).scrollTop()>700){$("#scroll-top").show()}else{$("#scroll-top").hide()}});/*]]>*/
+	</script>
+	<script src="/ssdg-portlet/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6100&amp;t=1587975012000" type="text/javascript"></script>
+	<script src="/NumberOfHits-portlet/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6100&amp;t=1587974964000" type="text/javascript"></script>
+	<script type="text/javascript">
+		/*<![CDATA[*/Liferay.Util.addInputFocus();/*]]>*/
+	</script>
+	<script type="text/javascript">
+		/*<![CDATA[*/Liferay.Portlet.onLoad({canEditTitle:false,columnPos:0,isStatic:"end",namespacedId:"p_p_id_103_",portletId:"103",refreshURL:"\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d31332\x26p_p_id\x3d103\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d0\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fgos\x252Fcirculars\x253Fp_p_id\x253DGovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U\x2526p_p_lifecycle\x253D0\x2526p_p_state\x253Dnormal\x2526p_p_mode\x253Dview\x2526p_p_col_id\x253Dcolumn-1\x2526p_p_col_count\x253D1\x2526_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction\x253DgrResults"});Liferay.Portlet.onLoad({canEditTitle:false,columnPos:0,isStatic:"end",namespacedId:"p_p_id_56_INSTANCE_z7J7odLmDdYO_",portletId:"56_INSTANCE_z7J7odLmDdYO",refreshURL:"\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d31332\x26p_p_id\x3d56_INSTANCE_z7J7odLmDdYO\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-2\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fgos\x252Fcirculars\x253Fp_p_id\x253DGovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U\x2526p_p_lifecycle\x253D0\x2526p_p_state\x253Dnormal\x2526p_p_mode\x253Dview\x2526p_p_col_id\x253Dcolumn-1\x2526p_p_col_count\x253D1\x2526_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction\x253DgrResults"});Liferay.Portlet.onLoad({canEditTitle:false,columnPos:0,isStatic:"end",namespacedId:"p_p_id_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_",portletId:"GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U",refreshURL:"\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d31332\x26p_p_id\x3dGovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fgos\x252Fcirculars\x253Fp_p_id\x253DGovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U\x2526p_p_lifecycle\x253D0\x2526p_p_state\x253Dnormal\x2526p_p_mode\x253Dview\x2526p_p_col_id\x253Dcolumn-1\x2526p_p_col_count\x253D1\x2526_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction\x253DgrResults\x26keyword\x3d\x26todate\x3d\x26_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction\x3dgrResults\x26fromdate\x3d\x26departmentId\x3d58256\x26lineDepmnt\x3d0"});function ctem_3_search(){var a=document.ctem_3_fm._3_keywords.value;a=a.replace(/^\s+|\s+$/,"");if(a!=""){document.ctem_3_fm.submit()}}function fphf_3_search(){var a=document.fphf_3_fm._3_keywords.value;a=a.replace(/^\s+|\s+$/,"");if(a!=""){document.fphf_3_fm.submit()}}Liferay.Portlet.onLoad({canEditTitle:false,columnPos:0,isStatic:"end",namespacedId:"p_p_id_NumberOfHits_WAR_NumberOfHitsportlet_",portletId:"NumberOfHits_WAR_NumberOfHitsportlet",refreshURL:"\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d31332\x26p_p_id\x3dNumberOfHits_WAR_NumberOfHitsportlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d0\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fgos\x252Fcirculars\x253Fp_p_id\x253DGovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U\x2526p_p_lifecycle\x253D0\x2526p_p_state\x253Dnormal\x2526p_p_mode\x253Dview\x2526p_p_col_id\x253Dcolumn-1\x2526p_p_col_count\x253D1\x2526_GovernmentResolutions_WAR_ssdgportlet_INSTANCE_lQv99fpalK7U_myaction\x253DgrResults"});AUI().use("aui-base","liferay-menu","liferay-notice","liferay-poller",function(a){(function(){Liferay.Util.addInputType();Liferay.Portlet.ready(function(b,c){Liferay.Util.addInputType(c)})})();(function(){new Liferay.Menu();var b=Liferay.Data.notices;for(var c=1;c<b.length;c++){new Liferay.Notice(b[c])}})()});/*]]>*/
+	</script>
+	<script src="/KeralaLatest-theme/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=6100&amp;t=1540990262000" type="text/javascript"></script>
+	<script type="text/javascript"></script>
+	<!--Mon May 18 13:26:48 IST 2020-->
+	<script type="text/javascript" src="https://sso.kerala.gov.in/Kerala/js/serverTime.js" charset="utf-8"></script>
+	</div>
+	<script type="text/javascript">
+		/*<![CDATA[*/function downloadJSAtOnload(){var c=document.createElement("script");c.src="https://sso.kerala.gov.in/Kerala/js/dropdown.js";document.body.appendChild(c);var b=document.createElement("script");b.src="https://sso.kerala.gov.in/Kerala/js/customScript.js";document.body.appendChild(b);var a=document.createElement("script");a.src="https://sso.kerala.gov.in/Kerala/js/menumaker.js";document.body.appendChild(a)}if(window.addEventListener){window.addEventListener("load",downloadJSAtOnload,false)}else{if(window.attachEvent){window.attachEvent("onload",downloadJSAtOnload)}else{window.onload=downloadJSAtOnload}};/*]]>*/
+	</script>
+</body>
+
+</html>
