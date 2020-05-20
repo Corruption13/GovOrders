@@ -1,11 +1,18 @@
-class Orders{
 
-  String go_no;
+class OrdersClass{
+
+  String index;
+  String goNo;
   String date;
   String section;
   String subject;
-  String pdf_url;
+  String size;
+  String pdfUrl;
 
-  Orders({this.go_no, this.date, this.section, this.subject});
+  OrdersClass({this.index, this.goNo, this.date, this.section, this.subject, this.size, this.pdfUrl});
+
 
 }
+
+
+
