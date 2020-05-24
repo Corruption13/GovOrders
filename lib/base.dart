@@ -13,7 +13,7 @@ class Base extends StatelessWidget {
           child: Column(
             children: [
               Expanded(
-                flex: 9,
+                flex: 11,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -34,6 +34,7 @@ class Base extends StatelessWidget {
                                     child: Center(
                                         child:
                                               Text("Government Orders",
+                                              textScaleFactor: 1.0,
                                               style: TextStyle(
                                                 color: Colors.white,
                                               ),)
@@ -42,9 +43,9 @@ class Base extends StatelessWidget {
                                     )),
                               ),
                             ),
-                            SizedBox(height: 20,),
+                            SizedBox(height: 15,),
                             MaterialButton(
-                              onPressed: (){print("Coming soon");},
+                              onPressed: (){Navigator.pushNamed(context, "/search") ;},
                               child: Container(
                                 color: Colors.grey[900],
                                 child: SizedBox(
@@ -74,7 +75,7 @@ class Base extends StatelessWidget {
 
               Expanded(
 
-                  flex: 1,
+                  flex: 2,
                   child:
 
 
@@ -93,37 +94,39 @@ class Base extends StatelessWidget {
 
                           }
                       ),
-                      SizedBox(height: 42,),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          GestureDetector(
-                              child:
-                              Text("About Me",
-                                style: TextStyle(
-                                  color: Colors.purple,
+                      SizedBox(height: 20,),
+                      Align(
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            GestureDetector(
+                                child:
+                                Text("About Me",
+                                  style: TextStyle(
+                                    color: Colors.purple,
+                                      fontSize: 10.0
+                                  ),
+                                ),
+                                onTap: () {
+                                  _aboutMe();
+                                }
+                            ),
+                            SizedBox(width: 42.0,),
+                            GestureDetector(
+                                child:
+                                Text("Report Bugs",
+                                  style: TextStyle(
+                                    color: Colors.red,
                                     fontSize: 10.0
+                                  ),
                                 ),
-                              ),
-                              onTap: () {
-                                _aboutMe();
-                              }
-                          ),
-                          SizedBox(width: 42.0,),
-                          GestureDetector(
-                              child:
-                              Text("Report Bugs",
-                                style: TextStyle(
-                                  color: Colors.red,
-                                  fontSize: 10.0
-                                ),
-                              ),
-                              onTap: () {
-                                _emailDev();
+                                onTap: () {
+                                  _emailDev();
 
-                              }
-                          ),
-                        ],
+                                }
+                            ),
+                          ],
+                        ),
                       ),
                     ],
                   )
