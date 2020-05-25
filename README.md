@@ -5,7 +5,7 @@ An App to Retrieve the latest Government orders from the official Kerala.gov.in 
 Implemented using Flutter Framework. 
 
 ## Features:
-* Display the orders for each department separetely
+* Display the orders for each department separately
 * Search for department using the following parameters:
 	*	Department
 	*	Date 
