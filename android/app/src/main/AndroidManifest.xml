@@ -9,7 +9,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="Kerala Government Orders"
+        android:label="Govt Orders Tracker"
         android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"

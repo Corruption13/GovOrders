@@ -27,21 +27,22 @@ class _OrderListState extends State<OrderList> {
               decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.only(
-                    topLeft:  Radius.circular(35.0),
-                    topRight:  Radius.circular(35.0),
-                    bottomLeft: Radius.circular(10.0),
-                    bottomRight: Radius.circular(8.0)
+                    topLeft:  Radius.circular(30.0),
+                    topRight:  Radius.circular(20.0),
+                    bottomLeft: Radius.circular(15.0),
+                    bottomRight: Radius.circular(10.0)
                   )
               ),
               padding: const EdgeInsets.all(25.0),
-              margin: const EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
+              margin: const EdgeInsets.fromLTRB(7.0, 10, 5.0, 10),
               child: Column(
                 children: <Widget>[
                   Text(
                     order.subject,
+                    textScaleFactor: 1.0,
                     style: TextStyle(
                         color: Colors.grey[900],
-                        fontSize: 14.0,
+                        fontSize: 16.0,
                         letterSpacing: 2.0
                     ),
                   ),
@@ -54,9 +55,10 @@ class _OrderListState extends State<OrderList> {
                         flex: 6,
                         child: Text(
                           order.goNo,
+                          textScaleFactor: 1.0,
                           style: TextStyle(
                               color: Colors.purple[800],
-                              fontSize: 14.0,
+                              fontSize: 16.0,
                               letterSpacing: 1.0
                           ),
                         ),
@@ -71,10 +73,11 @@ class _OrderListState extends State<OrderList> {
                           children: [
                             Text(
                               order.date,
+                              textScaleFactor: 1.0,
                               style: TextStyle(
                                   color: Colors.teal[700],
                                   fontWeight: FontWeight.bold,
-                                  fontSize: 15.0,
+                                  fontSize: 14.0,
                                   letterSpacing: 1.0
                               ),
 
@@ -82,10 +85,10 @@ class _OrderListState extends State<OrderList> {
                             SizedBox(height: 5),
                             Text(
                               order.section,
-
+                              textScaleFactor: 1.0,
                               style: TextStyle(
                                   color: Colors.brown[900],
-                                  fontSize: 12.0,
+                                  fontSize: 14.0,
                                   letterSpacing: 1.0
                               ),
                             ),
@@ -117,9 +120,11 @@ class _OrderListState extends State<OrderList> {
                             ),
                             Text(
                               order.size,
+                              textScaleFactor: 1.0,
                               style: TextStyle(
 
                                 color: Colors.red[900],
+                                fontSize: 16,
                               ),
                             )
                           ],
@@ -166,7 +171,8 @@ class _OrderListState extends State<OrderList> {
                     Navigator.pop(context) ;
                 },
                 icon: Icon(Icons.navigate_before),
-                label: Text("Previous Page",
+                label: Text("Prev",
+                  textScaleFactor: 1.0,
                   style: TextStyle(fontSize: 10.0, color: Colors.white),
                 ),
                 color: Colors.blue[700],
@@ -181,7 +187,7 @@ class _OrderListState extends State<OrderList> {
             ),
 
 
-            Text(" Page ${data["page"]} ",) ,
+            Text(" Page ${data["page"]} ", textScaleFactor: 1.0,) ,
 
             RaisedButton.icon(
                 onPressed: (){
@@ -190,7 +196,8 @@ class _OrderListState extends State<OrderList> {
                     Navigator.pushNamed(context, "/loading", arguments: {"Dept": data["query"][0], "page": page}) ;
                 },
                 icon: Icon(Icons.navigate_next),
-                label: Text("Next Page",
+                label: Text("Next",
+                  textScaleFactor: 1.0,
                   style: TextStyle(fontSize: 10.0, color: Colors.white),
                 ),
                 color: Colors.blue[700],
