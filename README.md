@@ -1,4 +1,4 @@
-# GOV Orders
+# Govt Order Tracker
 
 An App to Retrieve the latest Government orders from the official Kerala.gov.in website and display it in an orderly fashion.
 
