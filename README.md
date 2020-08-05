@@ -1,6 +1,6 @@
 # Govt Order Tracker
 
-## Taco Inc, owned by S Sandeep Pillai
+### Taco Inc, owned by S Sandeep Pillai
 
 An App to Retrieve the latest Government orders from the official Kerala.gov.in website and display it in an orderly fashion.
 
