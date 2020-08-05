@@ -44,4 +44,4 @@ Implemented using Flutter Framework.
 
 
 
-Special thanks to aishh2k
+Special thanks to [Aiswarya Jayachandran](https://github.com/Aishh2k)
